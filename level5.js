@@ -27,51 +27,51 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: '4',
-      img: 'Den yngsta som gömt sig i klockan var den enda killingen, som vargen inte hittade. '
+      img: 'push() '
     },
     {
       name: '4',
-      img: "The youngest who hid in the bell was the only kitten that the wolf did not find."
+      img: "This method is used for adding a new element at the very end of an array."
     },
     {
       name: '5',
-      img: 'Vargen var nu mätt och nöjd och gick sin väg.'
+      img: 'concat()'
     },
     {
       name: '5',
-      img: "The wolf was now full and satisfied and went his way."
+      img: "This method is used for joining various arrays into a single array."
     },
     {
       name: '6',
-      img: 'Han lade sig under ett träd på den gröna ängen utanför killingarnas hus och föll i sömn. '
+      img: 'reverse() '
     },
     {
       name: '6',
-      img: "He laid down under a tree in the green meadow outside the kittens' house and fell asleep."
+      img: "This method is used for reversing the order of the elements in an array."
     },
     {
       name: '7',
-      img: 'Strax därefter kom den gamla getmamman tillbaks från skogen.'
+      img: 'shift()'
     },
     {
       name: '7',
-      img: "Soon after, the old mother goat came back from the forest."
+      img: "This method is used for removing the first element of an array."
     },
     {
       name: '8',
-      img: 'Ack, vilken syn som mötte henne!'
+      img: 'slice()'
     },
     {
       name: '8',
-      img: "Alas, what a sight met her!"
+      img: "This method is used for pulling a copy of a part of an array into a new array."
     },
     {
       name: '9',
-      img: 'Ytterdörren stod vidöppen.'
+      img: 'splice()'
     },
     {
       name: '9',
-      img: "The front door was wide open."
+      img: "This method is used for adding elements in a particular way and position."
     },
     
   ]

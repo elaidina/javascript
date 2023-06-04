@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Mamman klippte upp magen på vargen och nästan innan hon gjort första klippet, hoppade en liten killing ut.'
+      img: 'confirm()'
     },
     {
       name: '1',
-      img: 'The mother cut open the belly of the wolf and almost before she made the first cut, a little kitten jumped out. '
+      img: "This function is used for opening up a yes or no dialogue box and for returning a boolean value depending upon the user's click "
     },
     {
       name: '2',
-      img: 'Efter några klipp till hoppade alla sex killingar ut en efter en. '
+      img: 'parseFloat() '
     },
     {
       name: '2',
-      img: 'After a few more clips, all six guys jumped out one by one. '
+      img: 'This function is used for parsing the argument passed to it and returning a floating-point number. '
     },
     {
       name: '3',
-      img: 'De var alla fortfarande i livet och hade inte kommit till skada eftersom vargen i sin glupskhet hade svalt dem hela. '
+      img: 'parseInt()'
     },
     {
       name: '3',
-      img: 'They were all still alive and had not been harmed because the wolf in its voraciousness had swallowed them whole. '
+      img: 'This function is used for parsing the argument passed to it and returning an integral number. '
     },
     {
       name: '4',
-      img: 'Vilket glatt återseende det var!'
+      img: 'encodeURI()'
     },
     {
       name: '4',
-      img: 'What a happy reunion it was! '
+      img: 'This function is used for encoding a URI into a UTF-8 encoding scheme. '
     },
     {
       name: '5',
-      img: 'De omfamnade alla sin mor och skuttade glatt omkring.'
+      img: 'decodeURI()'
     },
     {
       name: '5',
-      img: 'They all hugged their mother and darted about happily.'
+      img: 'This function is used for decoding a Uniform Resource Identifier (URI) made by encodeURI() function or similar functions.'
     },
     {
       name: '6',
-      img: 'Mamman sa till dem: '
+      img: 'encodeURIComponent() '
     },
     {
       name: '6',
-      img: 'The mother said to them:'
+      img: 'This function is used for the same purpose as encodeURI() only for URI components.'
     },
     {
       name: '7',
-      img: 'Gå nu och hämta några stora stenar, så skall vi fylla den elakingens mage med dem medan han sover.'
+      img: 'decodeURIComponent()'
     },
     {
       name: '7',
-      img: "Now go get some big stones, and we'll fill that wretch's stomach with them while he sleeps."
+      img: "This function is used for decoding a URI component."
     },
     {
       name: '8',
-      img: 'De sju killingarna skyndade sig då att hämta stenar, som de fyllde vargens mage med.'
+      img: 'isNaN()'
     },
     {
       name: '8',
-      img: "The seven kittens then hurried to get stones, which they filled the wolf's stomach with. "
+      img: "This function is used for determining if a given value is Not a Number or not. "
     },
     {
       name: '9',
-      img: 'Mamman sydde sedan ihop honom igen så fort att han inte märkte något, utan fortsatte att sova.'
+      img: 'Number()'
     },
     {
       name: '9',
-      img: "The mother then sewed him back together so quickly that he didn't notice, but continued to sleep."
+      img: "This function is used for returning a number converted from what is passed as an argument to it."
     },
     {
       name: '10',
-      img: 'När vargen så småningom vaknade och kom upp på sina fötter, gjorde stenarna i magen honom väldigt törstig.'
+      img: 'eval()'
     },
     {
       name: '10',
-      img: 'When the wolf eventually woke up and got to his feet, the stones in his stomach made him very thirsty. '
+      img: 'This function is used for evaluating JavaScript programs presented as strings. '
     },
     {
       name: '11',
-      img: 'Han gick därför bort till brunnen för att dricka vatten, men när han började gå började stenarna i hans mage att röra sig och skramlade mot varandra. '
+      img: 'isFinite()'
     },
     {
       name: '11',
-      img: 'He therefore went to the well to drink water, but as he began to walk the stones in his stomach began to move and rattled against each other. '
+      img: 'This function is used for determining if a passed value is finite or not.'
     },
     {
       name: '12',
-      img: 'Han skrek då:'
+      img: 'The accessibility or visibility of variables in JavaScript. '
     },
     {
       name: '12',
-      img: 'He then shouted:'
+      img: 'Scope'
     }
   ]
 

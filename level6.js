@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Då sa en späd röst gråtande:'
+      img: 'toString():'
     },
     {
       name: '1',
-      img: "Then a small voice said crying:"
+      img: "This method is used for converting the array elements into strings."
     },
     {
       name: '2',
-      img: 'Kära mamma, jag är inuti golvuret.'
+      img: 'unshift()'
     },
     {
       name: '2',
-      img: "Dear mother, I am inside the floor clock."
+      img: "This method is used for adding new elements at the beginning of the array."
     },
     {
       name: '3',
-      img: 'Hon tog ut den lilla killingen, som då berättade att vargen hade kommit dit och ätit upp alla de andra.'
+      img: 'valueOf()'
     },
     {
       name: '3',
-      img: 'She took out the little kitten, who then told her that the wolf had come there and eaten all the others. '
+      img: 'This method is used for returning the primitive value of the given object.'
     },
     {
       name: '4',
-      img: 'Du kan tänka dig som hon grät över de stackars barnen.'
+      img: 'indexOf()'
     },
     {
       name: '4',
-      img: 'You can imagine how she cried over the poor children.'
+      img: 'This method is used for returning the first index at which a given element is found in an array.'
     },
     {
       name: '5',
-      img: 'Hon gick gråtande ut ur huset och den lilla killingen sprang efter henne. '
+      img: 'lastIndexOf()'
     },
     {
       name: '5',
-      img: "She went out of the house crying and the little kitten ran after her."
+      img: "This method is used for returning the final index at which a given element appears in an array."
     },
     {
       name: '6',
-      img: 'När de kom ut på ängen, såg de vargen ligga snarkande under ett träd. '
+      img: 'join()'
     },
     {
       name: '6',
-      img: 'When they came out into the meadow, they saw the wolf lying snoring under a tree.'
+      img: 'This method is used for combining elements of an array into one single string and then returning it.'
     },
     {
       name: '7',
-      img: 'Han snarkade så högt att grenarna skakade. '
+      img: 'sort() '
     },
     {
       name: '7',
-      img: 'He snored so loudly that the branches shook.'
+      img: 'This method is used for sorting the array elements based on some condition.'
     },
     {
       name: '8',
-      img: 'Den gamla getmamman tittade ingående på vargen och såg att det var något som rörde sig och kämpade inuti vargens mage. '
+      img: 'JavaScript Functions can be defined as chunks of code written in JavaScript to perform a single task. '
     },
     {
       name: '8',
-      img: "The old mother goat looked closely at the wolf and saw that there was something moving and struggling inside the wolf's belly."
+      img: "function name(parameterOne, parameterTwo, ..., parameterN) { Task of the function }"
     },
     {
       name: '9',
-      img: 'Oh kära nån'
+      img: 'prompt()'
     },
     {
       name: '9',
-      img: 'Oh dear'
+      img: 'This function is used for creating a dialogue box for taking input from the user.'
     },
     {
       name: '10',
-      img: 'sa hon,'
+      img: 'alert()'
     },
     {
       name: '10',
-      img: 'she said,'
+      img: 'This function is used for outputting information in an alert box in the browser window.'
     },
     {
       name: '11',
-      img: 'kanske är mina stackars killingar, som han svalde, fortfarande vid liv.'
+      img: 'console.log()'
     },
     {
       name: '11',
-      img: 'perhaps my poor little ones, whom he swallowed, are still alive.'
+      img: "This function is used for writing data to the browser's console and is used for the purpose of debugging code by developers."
     },
     {
       name: '12',
-      img: 'Sedan sprang killingen hem och hämtade, sax, nål och tråd.'
+      img: 'document.write()'
     },
     {
       name: '12',
-      img: "Then the kitten ran home and got scissors, needle and thread."
+      img: "This function is used for writing straight to our HTML document."
     }
   ]
 

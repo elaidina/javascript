@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Vad är det som rullar och skramlar i min mage?'
+      img: 'includes any variable that is not contained within a function or block (a pair of curly braces).'
     },
     {
       name: '1',
-      img: 'What is rolling and rattling in my stomach?'
+      img: 'The global scope'
     },
     {
       name: '2',
-      img: 'Jag trodde det var sex små killingar,'
+      img: 'Global scope variables'
     },
     {
       name: '2',
-      img: 'I thought it was six little guys,'
+      img: 'can be accessed from anywhere in the program.'
     },
     {
       name: '3',
-      img: 'Men nu känns det som stora stenbumlingar.'
+      img: 'Variables declared inside a function are'
     },
     {
       name: '3',
-      img: 'But now it feels like big boulders.'
+      img: 'local variables'
     },
     {
       name: '4',
-      img: 'Och när han kom fram till brunnen och lutade sig fram för att dricka,'
+      img: 'They can only be accessed from within that function; they are not accessible from outside code.'
     },
     {
       name: '4',
-      img: 'And when he came to the well and leaned forward to drink, '
+      img: 'Local or Function Scope'
     },
     {
       name: '5',
-      img: 'gjorde de tunga stenarna att han tappade balansen och föll i vattnet och drunknade. '
+      img: 'Block Scope '
     },
     {
       name: '5',
-      img: 'the heavy stones caused him to lose his balance and fall into the water and drown. '
+      img: 'Unlike var variables, let and const variables can be scoped to the nearest pair of curly brackets in ES6.'
     },
     {
       name: '6',
-      img: 'När killingarna såg detta, kom de omedelbart springande och ropade högt och ljudligt:'
+      img: 'Scope Chain'
     },
     {
       name: '6',
-      img: 'When the kittens saw this, they immediately came running and shouted loudly and loudly: '
+      img: " When a variable is used in JavaScript, the JavaScript engine searches the current scope for the variable's value. "
     },
     {
       name: '7',
-      img: 'Vargen är död! Vargen är död!'
+      img: '...it will look into the outer scope until it finds it or reaches the global scope.'
     },
     {
       name: '7',
-      img: "The wolf is dead! The wolf is dead!"
+      img: "If the JS engine can't find the variable in the inner scope,..."
     },
     {
       name: '8',
-      img: 'De dansade av glädje runt källan tillsammans med sin mor.'
+      img: "If it still can't identify the variable, ..."
     },
     {
       name: '8',
-      img: "They danced for joy around the spring together with their mother."
+      img: "...it will either return an error or implicitly declare the variable in the global scope (if not in strict mode)."
     },
     {
       name: '9',
-      img: 'Sedan gick de lyckliga hem och visste att de inte längre behövde vara rädda för vargen. '
+      img: 'Hoisting '
     },
     {
       name: '9',
-      img: 'Then they went home happy knowing that they no longer needed to be afraid of the wolf.'
+      img: 'Prior to executing the code, the interpreter appears to relocate the declarations of functions, variables, and classes to the top of their scope.'
     },
     {
       name: '10',
-      img: 'En mjölnare hade tre söner.'
+      img: 'Functions can be securely utilised in code...'
     },
     {
       name: '10',
-      img: 'A miller had three sons.'
+      img: '...before they have been declared '
     },
     {
       name: '11',
-      img: 'När han dog ärvde den äldste sonen kvarnen, den näst äldste fick åsnan och till den yngste blev bara katten kvar.'
+      img: 'Variable and class declarations are likewise hoisted,...'
     },
     {
       name: '11',
-      img: 'When he died, the oldest son inherited the mill, the second oldest got the donkey, and the youngest got only the cat.'
+      img: '...allowing them to be referenced prior to declaration.'
     },
     {
       name: '12',
-      img: 'Vad ska jag ta mig till med en katt?'
+      img: 'Without function hoisting,...'
     },
     {
       name: '12',
-      img: 'What am I going to do with a cat?'
+      img: '...we would have to first write down the function display and only then can we call it.'
     }
   ]
   cardArray.sort(() => 0.5 - Math.random())
