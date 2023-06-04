@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Han skickar några rapphöns, som han just har fångat.'
+      img: 'toUpperCase() '
     },
     {
       name: '1',
-      img: 'He sends some partridges, which he has just caught.'
+      img: 'This method is used for converting strings to upper case. '
     },
     {
       name: '2',
-      img: 'Kungen blev överraskad över de härliga, feta rapphönsen och blev utom sig av glädje.'
+      img: 'charAt()'
     },
     {
       name: '2',
-      img: 'The king was surprised by the beautiful, fat partridges and was overjoyed. '
+      img: 'This method is used for returning the character at a particular index of a string.'
     },
     {
       name: '3',
-      img: 'Han lät katten fylla sin säck med så mycket guld som han orkade bära.'
+      img: 'charCodeAt() '
     },
     {
       name: '3',
-      img: 'He let the cat fill his sack with as much gold as he could carry.'
+      img: 'This method is used for returning to us the Unicode of the character at a  given index. '
     },
     {
       name: '4',
-      img: 'Bär det till din herre och tacka honom för hans gåva.'
+      img: 'slice()'
     },
     {
       name: '4',
-      img: 'Take it to your master and thank him for his gift.'
+      img: 'This method is used for extracting an area of the string and returning it.'
     },
     {
       name: '5',
-      img: 'Men den stackars mjölnarsonen satt hemma vid fönstret med huvudet lutat mot handen och tänkte:'
+      img: 'split()'
     },
     {
       name: '5',
-      img: "But the poor miller's son sat at home by the window with his head leaning on his hand and thought:"
+      img: "This method is used for splitting a string object into an array of strings at a particular index."
     },
     {
       name: '6',
-      img: 'Nu har jag gjort mig av med mina sista slantar på ett par stövlar till katten.'
+      img: 'substring()'
     },
     {
       name: '6',
-      img: "Now I've got rid of my last pennies on a pair of boots for the cat."
+      img: "Even this method is almost the same as the slice() method but it does not allow negative positions."
     },
     {
       name: '7',
-      img: 'Vad kan jag få ut av det?'
+      img: 'valueOf() '
     },
     {
       name: '7',
-      img: 'What can I get out of it?'
+      img: 'This method is used for returning the primitive value (one without any properties or methods) of a string object.'
     },
     {
       name: '8',
-      img: 'Just då kom katten in, tog säcken från ryggen, öppnade den och hällde ut allt guldet framför mjölnarsonen.'
+      img: 'Document Object Model (DOM)'
     },
     {
       name: '8',
-      img: "Just then the cat came in, took the sack from his back, opened it and poured out all the gold in front of the miller's son."
+      img: "the structure of a webpage's code"
     },
     {
       name: '9',
-      img: 'Här får du för stövlarna.'
+      img: 'HTML elements '
     },
     {
       name: '9',
-      img: 'Here you get for the boots. '
-    },
-    {
-      name: '10',
-      img: 'Kungen hälsar till dig och tackar för de fina rapphönsen.'
-    },
-    {
-      name: '10',
-      img: 'The king greets you and thanks you for the fine partridges.'
-    },
-    {
-      name: '11',
-      img: 'Mjölnarsonen blev glad över så stor rikedom! '
-    },
-    {
-      name: '11',
-      img: 'Mjölnarsonen was happy about such great wealth! '
-    },
-    {
-      name: '12',
-      img: 'Medan katten drog av sig stövlarna, berättade han alltihop. '
-    },
-    {
-      name: '12',
-      img: 'While the cat pulled off his boots, he told all.'
+      img: 'nodes '
     }
   ]
 

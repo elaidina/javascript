@@ -3,100 +3,77 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Han knöt upp säcken med sädeskornen och lade den öppen på marken.'
+      img: "fromCharCode()"
     },
     {
       name: '1',
-      img: 'He untied the sack of grain and laid it open on the ground.'
+      img: ' This method is used for returning a string made from a particular sequence of UTF-16 code units.'
     },
     {
       name: '2',
-      img: 'Snöret lade han i gräset och drog det bort till en häck. '
+      img: 'concat()'
     },
     {
       name: '2',
-      img: 'He laid the string in the grass and pulled it away to a hedge. '
+      img: 'This method is used for concatenating or joining multiple strings into a single string. '
     },
     {
       name: '3',
-      img: 'Där gömde han sig och låg på lur.'
+      img: 'replace()'
     },
     {
       name: '3',
-      img: 'There he hid and lay in wait. '
+      img: 'This method is used for finding and replacing a given text in the string'
     },
     {
       name: '4',
-      img: 'Snart kom rapphönsen.'
+      img: 'This method is used for retrieving the matches of a string against a pattern string which is provided. '
     },
     {
       name: '4',
-      img: 'Soon the partridges arrived.'
+      img: 'match()'
     },
     {
       name: '5',
-      img: 'De hoppade in i kornsäcken. '
+      img: 'indexOf() '
     },
     {
       name: '5',
-      img: 'They jumped into the grain sack.'
+      img: 'This method is used for providing the index of the first appearance of a given text inside the string.'
     },
     {
       name: '6',
-      img: ' När tillräckligt många hade krupit in, drog katten åt snöret. '
+      img: ' lastIndexOf() '
     },
     {
       name: '6',
-      img: 'When enough people had crawled in, the cat pulled the string. '
+      img: 'This method is similar to the indexOf() methods and differs in the fact that it searches for the last occurrence of the character and searches backwards. '
     },
     {
       name: '7',
-      img: 'Sedan tog han säcken på ryggen och gick raka vägen till kungens slott.'
+      img: 'search()'
     },
     {
       name: '7',
-      img: "Then he put the sack on his back and went straight to the king's castle."
+      img: "This method is used for executing a search for a matching text and returning the index of the searched string."
     },
     {
       name: '8',
-      img: "Stopp! Varthän? ropade vakten."
+      img: "substr()"
     },
     {
       name: '8',
-      img: 'Stop! Where? shouted the guard.'
+      img: 'This method is pretty much the same as the slice() method but the extraction of a substring in it depends on a given number of characters'
     },
     {
       name: '9',
-      img: 'Till kungen, svarade katten frimodigt.'
+      img: 'toLowerCase()'
     },
     {
       name: '9',
-      img: 'To the king, answered the cat boldly.'
+      img: 'This method is used for converting strings to lower case.'
     },
-    {
-      name: '10',
-      img: 'Eftersom kungen hade långtråkigt släpptes katten in.'
-    },
-    {
-      name: '10',
-      img: 'Since the king was bored, the cat was let in. '
-    },
-    {
-      name: '11',
-      img: 'Han bugade sig djupt för kungen och sa:'
-    },
-    {
-      name: '11',
-      img: 'He bowed deeply to the king and said:'
-    },
-    {
-      name: '12',
-      img: 'Min herre, greven, låter hälsa sin konung. '
-    },
-    {
-      name: '12',
-      img: 'My lord, the count, sends greetings to his king. '
-    }
+    
   ]
 
   cardArray.sort(() => 0.5 - Math.random())

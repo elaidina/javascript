@@ -3,100 +3,77 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: ' Jag kan i bästa fall låta göra ett par skinnhandskar av pälsen.'
+      img: ' Variable Hoisting'
     },
     {
       name: '1',
-      img: "At best, I can have a pair of leather gloves made from the fur."
+      img: "You can use a variable in code before it is defined and/or initialised."
     },
     {
       name: '2',
-      img: 'Hör på, sa då katten till honom. '
+      img: 'JavaScript, however, only hoists declarations,... '
     },
     {
       name: '2',
-      img: " Listen, the cat then told him. "
+      img: " ...not initializations!"
     },
     {
       name: '3',
-      img: 'Döda mig inte.'
+      img: 'var x'
     },
     {
       name: '3',
-      img: "Do not kill me. "
+      img: "Declaration of variable x"
     },
     {
       name: '4',
-      img: 'Låt istället göra ett par stövlar åt mig, så att jag kan visa mig ute bland folk.'
+      img: 'x = 7;'
     },
     {
       name: '4',
-      img: 'Instead, have a pair of boots made for me, so that I can show myself out among people.'
+      img: 'Initialization of variable x to a value 7'
     },
     {
       name: '5',
-      img: 'Då kommer du snart att få hjälp.'
+      img: 'closure'
     },
     {
       name: '5',
-      img: 'Then you will soon get help.      '
+      img: 'a function that has been bundled together (enclosed) with references to its surroundings (the lexical environment)      '
     },
     {
       name: '6',
-      img: 'Mjölnarsonen blev förvånad över att hans katt kunde tala och han lät göra ett par stövlar åt honom. '
+      img: 'A closure allows an inner function ... '
     },
     {
       name: '6',
-      img: 'Mjölnarsonen was surprised that his cat could speak and he had a pair of boots made for him. '
+      img: '...to access the scope of an outside function. '
     },
     {
       name: '7',
-      img: 'När de var färdiga drog katten dem på sig. '
-    },
+      img: 'function subtractor(subtractingInteger) { return function(a) { return a - subtractingInteger; }; } '
+      },
     {
       name: '7',
-      img: 'When they were done, the cat pulled them on him.'
+      img: 'var subtract2 = subtractor(2);      var subtract5 = subtractor(5);      console.log(subtract2(5));  // 3      console.log(subtract5(5)); // 0 '
     },
     {
       name: '8',
-      img: 'Sedan tog han en säck och hällde ner lite säd i den.'
+      img: 'Escape Sequences'
     },
     {
       name: '8',
-      img: 'Then he took a sack and poured some grain into it.'
+      img: 'Escape Characters'
     },
     {
       name: '9',
-      img: 'Därefter letade han reda på ett snöre, så att han skulle kunna binda ihop säcken.'
+      img: '\' '
     },
     {
       name: '9',
-      img: 'Next he looked for a string, so that he could tie the sack together.'
+      img: ' Single quotes'
     },
-    {
-      name: '10',
-      img: "Till sist slängde han upp säcken över axeln och gick sin väg."
-    },
-    {
-      name: '10',
-      img: 'At last he slung the sack over his shoulder and went on his way.'
-    },
-    {
-      name: '11',
-      img: "På den tiden regerades landet av en kung som tyckte mycket om rapphöns. "
-    },
-    {
-      name: '11',
-      img: 'At that time, the country was ruled by a king who was very fond of partridges. '
-    },
-    {
-      name: '12',
-      img: 'Det visste katten och eftersom de var svåra att skjuta, hade han listat ut ett sätt att ta dem till fånga.'
-    },
-    {
-      name: '12',
-      img: 'The cat knew that and since they were hard to shoot, he had figured out a way to capture them. '
-    }
+    
   ]
 
   cardArray.sort(() => 0.5 - Math.random())

@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: "Sedan sa han: "
+      img: "attributes  "
     },
     {
       name: '1',
-      img: ' Then he said: '
+      img: ' Gets a live list of all the characteristics associated with an element.'
     },
     {
       name: '2',
@@ -72,30 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: '9',
       img: 'Then the cat quickly fetched his master and went with him to the lake.'
-    },
-    {
-      name: '10',
-      img: 'Där fick mjölnarsonen ta av sig kläderna och bada. '
-    },
-    {
-      name: '10',
-      img: "There the miller's son had to take off his clothes and bathe. "
-    },
-    {
-      name: '11',
-      img: 'Men katten gömde sin herres kläder. '
-    },
-    {
-      name: '11',
-      img: "But the cat hid his master's clothes. "
-    },
-    {
-      name: '12',
-      img: 'När nu kungavagnen kom farande, klagade katten:'
-    },
-    {
-      name: '12',
-      img: "When the royal carriage arrived, the cat complained:"
     }
   ]
 
