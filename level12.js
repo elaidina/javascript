@@ -11,67 +11,67 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: '2',
-      img: "Nu har du tillräckligt med guld, men det stannar inte vid det."
+      img: "baseURI "
     },
     {
       name: '2',
-      img: "Now you have enough gold, but it doesn't stop there. "
+      img: "Returns an HTML element's absolute base URL "
     },
     {
       name: '3',
-      img: 'I morgon drar jag på mig stövlarna igen, för du ska bli ännu rikare. '
+      img: 'childNodes  '
     },
     {
       name: '3',
-      img: "Tomorrow I'll put my boots back on, because you're going to be even richer. "
+      img: "Returns a list of the child nodes of an element."
     },
     {
       name: '4',
-      img: "Till kungen sa jag, att du är greve."
+      img: "firstChild "
     },
     {
       name: '4',
-      img: 'To the king I said, that you are a count.'
+      img: "Returns the element's first child node."
     },
     {
       name: '5',
-      img: 'Nästa dag gick katten, med stövlarna på, åter på jakt och gick till kungen med sin fångst. .'
+      img: 'lastChild'
     },
     {
       name: '5',
-      img: 'The next day the cat, with his boots on, went hunting again and went to the king with his catch.'
+      img: "An element's final child node"
     },
     {
       name: '6',
-      img: " Så gick det till varje dag, och katten hade guld med sig hem varenda gång. "
+      img: " nextSibling "
     },
     {
       name: '6',
-      img: "That's how it went every day, and the cat brought home gold every single time. "
+      img: "Returns the next node in the same node tree level as the current node. "
     },
     {
       name: '7',
-      img: 'Hos kungen var han så omtyckt, att han kunde gå ut och in i slottet så mycket han ville. '
+      img: 'nodeName '
     },
     {
       name: '7',
-      img: 'He was so popular with the king that he could go in and out of the castle as much as he wanted.'
+      img: "Returns a node's name."
     },
     {
       name: '8',
-      img: 'En gång när han var i köket för att värma sig lite, hörde han att kusken skulle köra en tur med kungen och prinsessan runt sjön.'
+      img: 'nodeType'
     },
     {
       name: '8',
-      img: 'Once when he was in the kitchen to warm himself up a bit, he heard that the coachman was going to take the king and princess for a ride around the lake. '
+      img: "Returns the node's type."
     },
     {
       name: '9',
-      img: 'Då hämtade katten snabbt sin herre och gick med honom till sjön.'
+      img: 'nodeValue'
     },
     {
       name: '9',
-      img: 'Then the cat quickly fetched his master and went with him to the lake.'
+      img: "Sets or returns a node's value."
     }
   ]
 

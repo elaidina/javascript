@@ -3,100 +3,77 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Sedan skyndade katten vidare till ett stort sädesfält och en stor skog.'
+      img: 'isDefaultNamespace() '
     },
     {
       name: '1',
-      img: 'Then the cat hurried on to a large cornfield and a large forest. '
+      img: 'returns true if a given namespaceURI is the default, and false otherwise.     '
     },
     {
       name: '2',
-      img: 'Han befallde folket, som arbetade där, att säga detsamma.'
+      img: 'isEqualNode() '
     },
     {
       name: '2',
-      img: 'He commanded the people who worked there to say the same. '
+      img: 'Determines whether two elements are the same. '
     },
     {
       name: '3',
-      img: ' Och eftersom han såg så märklig ut, blev folket lite rädda för honom.'
+      img: ' isSameNode() '
     },
     {
       name: '3',
-      img: ' And because he looked so strange, the people became a little afraid of him.'
+      img: ' Determines whether two elements belong to the same node.'
     },
     {
       name: '4',
-      img: 'Till slut kom katten fram till trollkarlens slott. '
+      img: 'isSupported() '
     },
     {
       name: '4',
-      img: "Finally the cat arrived at the wizard's castle. "
+      img: "Returns true if the element supports the provided feature. "
     },
     {
       name: '5',
-      img: 'Han bugade sig för denne och sa:'
+      img: 'lookupNamespaceURI() '
     },
     {
       name: '5',
-      img: 'He bowed to him and said:'
+      img: ' Returns the namespace URI for a specific node.'
     },
     {
       name: '6',
-      img: 'Jag har hört, att du kan förvandla dig till vilket djur som helst.'
+      img: 'lookupPrefix'
     },
     {
       name: '6',
-      img: 'I have heard that you can transform yourself into any animal.'
+      img: 'If the prefix for a given namespace URI is present, lookupPrefix() returns a DOMString containing it.'
     },
     {
       name: '7',
-      img: 'Men skulle du verkligen kunna förvandla dig till ett  så stort djur som en elefant?'
+      img: 'normalise()'
     },
     {
       name: '7',
-      img: 'But could you really transform into an animal as big as an elephant?'
+      img: 'In an element, joins neighbouring text nodes and removes empty text nodes.'
     },
     {
       name: '8',
-      img: 'Jo, det vill jag mena, sa trollkarlen.'
+      img: 'removeChild()'
     },
     {
       name: '8',
-      img: "Well, that's what I mean, said the wizard." 
+      img: "Removes a child node from an element using the Child() method." 
     },
     {
       name: '9',
-      img: 'Och genast stod en elefant framför katten.'
+      img: 'replaceChild() '
     },
     {
       name: '9',
-      img: 'And immediately an elephant stood in front of the cat.'
-    },
-    {
-      name: '10',
-      img: ' Otroligt! utropade denne.'
-    },
-    {
-      name: '10',
-      img: 'Unbelievable! he exclaimed.'
-    },
-    {
-      name: '11',
-      img: 'Du är bestämt den störste trollkarlen i hela världen. '
-    },
-    {
-      name: '11',
-      img: 'You are definitely the greatest wizard in the whole world.'
-    },
-    {
-      name: '12',
-      img: 'Men jag kan slå vad om, att du inte kan förvandla dig till ett så litet djur som en mus.'
-    },
-    {
-      name: '12',
-      img: "But I bet you can't turn into an animal as small as a mouse."
+      img: 'In an element, this function replaces a child node.'
     }
+    
   ]
 
   cardArray.sort(() => 0.5 - Math.random())

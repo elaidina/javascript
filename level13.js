@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Allernådigaste konung!'
+      img: 'ownerDocument'
     },
     {
       name: '1',
-      img: 'Most gracious king! '
+      img: "This node's top-level document object."
     },
     {
       name: '2',
-      img: 'Min herre, greven, badade här i sjön, och just då kom en tjuv och stal hans kläder. '
+      img: 'parentNode '
     },
     {
       name: '2',
-      img: 'My lord, the count, was bathing here in the lake, and just then a thief came and stole his clothes.'
+      img: "Returns the element's parent node."
     },
     {
       name: '3',
-      img: 'Nu måste greven stanna i vattnet och kan inte stiga upp.'
+      img: 'previousSibling'
     },
     {
       name: '3',
-      img: ' Now the count must stay in the water and cannot rise.'
+      img: ' Gets the node that comes before the current one.'
     },
     {
       name: '4',
-      img: 'Då lät kungen genast hämta de allra finaste kläder. '
+      img: 'textContent '
     },
     {
       name: '4',
-      img: 'Then the king immediately had the finest clothes brought.'
+      img: "Sets or returns a node's and its descendants' textual content."
     },
     {
       name: '5',
-      img: 'Mjölnarsonen drog på sig dem och måste sedan sätta sig upp hos kungen i vagnen.'
+      img: 'Node Methods...'
     },
     {
       name: '5',
-      img: 'Mjölnarsonen put them on and then has to sit up with the king in the carriage. .'
+      img: '...manipulate nodes in the DOM.'
     },
     {
       name: '6',
-      img: 'Prinsessan blev glad, för hon tyckte om den unge greven.'
+      img: 'appendChild() '
     },
     {
       name: '6',
-      img: 'The princess was happy, because she liked the young count.'
+      img: 'Adds a new child node as the last child node to an element.'
     },
     {
       name: '7',
-      img: 'Under tiden hade katten sprungit i förväg. Han kom fram till en stor äng. '
+      img: 'cloneNode() '
     },
     {
       name: '7',
-      img: 'Meanwhile, the cat had run ahead. He came to a large meadow. '
+      img: 'is a function that duplicates an HTML element. '
     },
     {
       name: '8',
-      img: 'Där höll folk just på att räfsa hö. '
+      img: 'compareDocumentPosition() '
     },
     {
       name: '8',
-      img: 'People were just raking hay there. '
+      img: "Compares two elements' document positions. "
     },
     {
       name: '9',
-      img: 'De berättade, att ängen tillhörde den store trollkarlen.'
+      img: 'getFeature()'
     },
     {
       name: '9',
-      img: 'They told that the meadow belonged to the great sorcerer.'
+      img: 'returns an object that implements the APIs of a feature.'
     },
     {
       name: '10',
-      img: 'Då befallde katten dem:'
+      img: 'hasAttributes()'
     },
     {
       name: '10',
-      img: 'Then the cat ordered them:'
+      img: 'If an element has any attributes, it returns true; otherwise, it returns false.'
     },
     {
       name: '11',
-      img: 'När kungen nu strax kör förbi här och frågar vem som äger ängen, så svara: '
+      img: 'hasChildNodes()  '
     },
     {
       name: '11',
-      img: ' When the king drives by here and asks who owns the meadow, answer: '
+      img: ' If an element has any child nodes, it returns true; otherwise, it returns false. '
     },
     {
       name: '12',
-      img: 'greven! Gör ni inte det, så blir det synd  om er!'
+      img: 'insertBefore()'
     },
     {
       name: '12',
-      img: " the count! If you don't, it will be a pity for you!"
+      img: "Adds a new child node to the left of an existing child node."
     }
   ]
 

@@ -64,38 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: '8',
       img: 'The cornfields swayed in the wind.'
-    },
-    {
-      name: '9',
-      img: 'Runt omkring åkrar och ängar låg stora skogar och mitt i skogarna låg djupa sjöar. '
-    },
-    {
-      name: '9',
-      img: 'All around the fields and meadows were large forests and in the middle of the forests were deep lakes.  '
-    },
-    {
-      name: '10',
-      img: "Mitt i solskenet låg ett gammalt slott med djupa kanaler runt omkring. "
-    },
-    {
-      name: '10',
-      img: 'In the middle of the sunshine was an old castle with deep canals all around it. '
-    },
-    {
-      name: '11',
-      img: "Från muren växte stora kardborrblad som var så höga att små barn kunde stå raka under de största. "
-    },
-    {
-      name: '11',
-      img: 'From the wall grew large velcro leaves so tall that small children could stand straight under the largest ones.'
-    },
-    {
-      name: '12',
-      img: ' Här låg en anka och ruvade på sina ägg. '
-    },
-    {
-      name: '12',
-      img: 'Here lay a duck incubating her eggs.'
     }
   ]
 
