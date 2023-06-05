@@ -3,67 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Min konung, välkommen till min herres slott. '
+      img: 'removeAttributeNS() '
     },
     {
       name: '1',
-      img: "My king, welcome to my master's castle." 
+      img: "Removes an attribute from an element in a specific namespace." 
     },
     {
       name: '2',
-      img: 'Den ära som nu visas honom kommer att göra honom lycklig för resten av livet.'
+      img: 'setAttributeNode()'
     },
     {
       name: '2',
-      img: 'The honor now shown to him will make him happy for the rest of his life.'
+      img: 'Sets or modifies an attribute node.'
     },
     {
       name: '3',
-      img: 'Kungen steg ur och förvånades över den präktiga byggnaden, som nästan var större och vackrare än hans eget slott.'
+      img: 'setAttributeNodeNS()'
     },
     {
       name: '3',
-      img: 'The king got out and was amazed at the magnificent building, which was almost bigger and more beautiful than his own castle.'
+      img: 'Sets a new namespaced attribute node to an element with setAttributeNodeNS().'
     },
     {
       name: '4',
-      img: 'Men greven förde prinsessan in i en sal som glittrade och glimmade av guld och ädelstenar.'
+      img: 'Higher-order functions are those functions in JavaScript ...'
     },
     {
       name: '4',
-      img: 'But the count led the princess into a hall that glittered and glittered with gold and precious stones. '
+      img: '...which can accept one or more functions as inputs and return a function as the result. '
     },
     {
       name: '5',
-      img: 'Prinsessan gifte sig med greven, och när kungen dog, blev  mjölnarsonen kung. '
+      img: 'The map method ... '
     },
     {
       name: '5',
-      img: "The princess married the count, and when the king died, the miller's son became king."
+      img: "...applies a function to each array element."
     },
     {
       name: '6',
-      img: ' Katten i stövlar utnämnde han till sin förnämste minister.'
+      img: ' The callback function receives each element of the array...'
     },
     {
       name: '6',
-      img: 'He named Puss in Boots his chief minister.'
+      img: '...and returns a new array of the same length. '
     },
     {
       name: '7',
-      img: 'Det var så vackert ute på landet, det var sommar. '
+      img: 'var arr = [10,20,30]; '
     },
     {
       name: '7',
-      img: "It was so beautiful out in the country, it was summer. "
+      img: "var triple  = arr.map(x => x * 3);  triple; // [30,60,90] "
     },
     {
       name: '8',
-      img: 'Sädesfälten vajade i vinden. '
+      img: 'map(), filter(), and reduce() '
     },
     {
       name: '8',
-      img: 'The cornfields swayed in the wind.'
+      img: 'can be used directly on an array'
+    },
+    {
+      name: '9',
+      img: 'Regular expressions'
+    },
+    {
+      name: '9',
+      img: 'search patterns that can be used to match string character combinations'
     }
   ]
 

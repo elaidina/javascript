@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Hon skulle ju ligga på äggen tills ungarna kom ut men nu hade hon tröttnat efter att ha legat så länge utan att få besök. '
+      img: 'filter() method'
     },
     {
       name: '1',
-      img: 'She was supposed to lie on the eggs until the chicks came out, but now she was tired after lying for so long without visitors.'
+      img: 'items that do not meet a criterion are removed from the array'
     },
     {
       name: '2',
-      img: 'De andra ankorna tyckte mera om att simma omkring i kanalerna än att springa upp och tjattra med henne.'
+      img: 'callback function receives...'
     },
     {
       name: '2',
-      img: 'The other ducks liked swimming around in the canals more than running up and chatting with her.'
+      img: '...every element of the array'
     },
     {
       name: '3',
-      img: 'Äntligen knakade det i det ena ägget efter det andra : '
+      img: ' If the callback returns true on each iteration, the element will be added to the new array; ... '
     },
     {
       name: '3',
-      img: 'Finally, one egg after another cracked:'
+      img: '...otherwise, it will not be added. '
     },
     {
       name: '4',
-      img: 'Pip! pip! sade det.'
+      img: 'You can group parts of a regular expression together ...'
     },
     {
       name: '4',
-      img: 'Beep! beep! said it.'
+      img: '...by putting them inside round brackets or parentheses.'
     },
     {
       name: '5',
-      img: 'Alla äggulorna hade blivit levande och stack ut huvudet.'
+      img: 'var arr = [13,40,47];      var odd = arr.filter(x => x % 2);'
     },
     {
       name: '5',
-      img: 'All the yolks had come alive and were sticking their heads out.'
+      img: 'odd; // [13,47]'
     },
     {
       name: '6',
-      img: 'Kvack! kvack! '
+      img: 'The reduce() method... '
     },
     {
       name: '6',
-      img: 'Quack! quack! '
+      img: '...can combine the items of an array into a single value. '
     },
     {
       name: '7',
-      img: 'sade hon och så kvackade de allt vad de kunde och tittade åt alla sidor under de gröna bladen ...'
+      img: 'When using reduce, ...'
     },
     {
       name: '7',
-      img: 'said she, and so they quacked all they could and looked in every direction under the green leaves, ...'
+      img: "...we must declare the accumulator's beginning value (final result)" 
     },
     {
       name: '8',
-      img: "...och modern lät dem titta så mycket de ville, för grönt är bra för ögonen."
+      img: "Each iteration, we do some operation inside the callback,..."
     },
     {
       name: '8',
-      img: '...and the mother let them look as much as they liked, for green is good for the eyes.'
+      img: '...which is then added to the accumulator.'
     },
     {
       name: '9',
-      img: 'Vad stor världen är! sade alla ungarna för de hade nu mycket bättre svängrum än då de låg inuti ägget.'
+      img: '    var arr = [10,20,30];  var counter = 0;                let answer = arr.reduce((accumulator, value) => value + accumulator, counter);'
     },
     {
       name: '9',
-      img: 'How big the world is! said all the cubs because they now had much more room to maneuver than when they were inside the egg.'
-    },
-    {
-      name: '10',
-      img: 'Tror ni att det här är hela världen?'
-    },
-    {
-      name: '10',
-      img: ' Do you think this is the whole world?'
-    },
-    {
-      name: '11',
-      img: 'sade modern. '
-    },
-    {
-      name: '11',
-      img: 'said the mother.'
-    },
-    {
-      name: '12',
-      img: ' Den sträcker sig långt på andra sidan trädgården, ända in på prästens ägor,  men där har jag aldrig varit.'
-    },
-    {
-      name: '12',
-      img: "It stretches far on the other side of the garden, right into the priest's property, but I have never been there."
+      img: 'console.log(answer) // answer = 10 + 20 + 30 = 60'
     }
   ]
 
