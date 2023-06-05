@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Är ni här allesammans? '
+      img: 'MAX VALUE '
     },
     {
       name: '1',
-      img: ' Are you all here?'
+      img: ' The maximum numeric value that JavaScript can represent.'
     },
     {
       name: '2',
-      img: 'Och så reste hon på sig. '
+      img: 'NaN '
     },
     {
       name: '2',
-      img: 'And then she got up. '
+      img: 'The "Not-a-Number" value is NaN. '
     },
     {
       name: '3',
-      img: 'Nej, jag har inte alla!'
+      img: 'NEGATIVE INFINITY '
     },
     {
       name: '3',
-      img: "No, I don't have them all! "
+      img: " The value of Infinity is negative. "
     },
     {
       name: '4',
-      img: 'Det största ägget ligger där ännu. '
+      img: 'POSITIVE INFINITY'
     },
     {
       name: '4',
-      img: 'The biggest egg is still there. '
+      img: 'Infinity value that is positive. '
     },
     {
       name: '5',
-      img: 'Hur länge skall detta vara?'
+      img: 'MIN VALUE '
     },
     {
       name: '5',
-      img: 'How long will this last?'
+      img: 'The smallest positive numeric value that JavaScript can represent.'
     },
     {
       name: '6',
-      img: ' Nu är jag ju jättetrött! Och så lade hon sig igen.'
+      img: ' toString()'
     },
     {
       name: '6',
-      img: "Now I'm really tired! And then she lay down again."
+      img: "Returns a string representation of an integer."
     },
     {
       name: '7',
-      img: 'Nå, hur går det?'
+      img: 'toFixed()'
     },
     {
       name: '7',
-      img: "Well, how's it going? "
+      img: "Returns a number's string with a specified number of decimals."
     },
     {
       name: '8',
-      img: 'sade en gammal anka, som kom på besök.'
+      img: 'toPrecision()'
     },
     {
       name: '8',
-      img: 'said an old duck, who came to visit.'
+      img: 'Converts a number to a string of a specified length.'
     },
     {
       name: '9',
-      img: 'Det dröjer så länge med det ena ägget! sade ankan, som låg och ruvade. '
+      img: 'valueOf()'
     },
     {
       name: '9',
-      img: ' takes so long with the one egg! said the duck, who was brooding.'
-    },
-    {
-      name: '10',
-      img: 'Det vill inte gå hål på det. '
-    },
-    {
-      name: '10',
-      img: "It doesn't want to go through it. "
-    },
-    {
-      name: '11',
-      img: 'Men titta på alla de andra, de är de vackraste ankungar jag någonsin sett.'
-    },
-    {
-      name: '11',
-      img: 'But look at all the others, they are the most beautiful ducklings I have ever seen.'
-    },
-    {
-      name: '12',
-      img: ' Låt mig se det där ägget, som inte vill brista! '
-    },
-    {
-      name: '12',
-      img: "Let me see that egg that won't break!"
+      img: ' Returns a number in its original form.'
     }
   ]
 

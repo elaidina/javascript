@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Han var så stor och ful.'
+      img: 'exp(x) '
     },
     {
       name: '1',
-      img: 'He was so big and ugly. '
+      img: "Ex's value "
     },
     {
       name: '2',
-      img: 'Ankan såg på honom.'
+      img: 'floor(x) '
     },
     {
       name: '2',
-      img: 'The duck looked at him.'
+      img: "x's value rounded to the nearest integer." 
     },
     {
       name: '3',
-      img: 'Det var då en förskräckligt stor ankunge den där! sade hon. '
+      img: 'log(x)  '
     },
     {
       name: '3', 
-      img: 'That was a terribly big duckling there! she said.'
+      img: 'The natural logarithm (base E) of x is log(x).'
     },
     {
       name: '4',
-      img: 'Ingen av de andra ser ut så. '
+      img: 'abs(x) '
     },
     {
       name: '4',
-      img: 'None of the others look like that.'
+      img: 'Returns the value of x in its absolute (positive) form.'
     },
     {
       name: '5',
-      img: 'Det är väl aldrig en kalkonunge !'
+      img: 'acos(x)'
     },
     {
       name: '5',
-      img: "It's never a baby turkey!"
+      img: "In radians, the arccosine of x."
     },
     {
       name: '6',
-      img: 'Nå ja, det kommer vi snart underfund med.'
+      img: 'asin(x)'
     },
     {
       name: '6',
-      img: "Well, we'll figure that out soon."
+      img: "In radians, the arcsine of x."
     },
     {
       name: '7',
-      img: 'I vattnet skall han, om jag så måste sparka ut honom.'
+      img: 'pow(x,y)'
     },
     {
       name: '7',
-      img: 'In the water he shall, if I have to kick him out.'
+      img: 'x to the power of y'
     },
     {
       name: '8',
-      img: 'Nästa dag var det ett härligt väder.'
+      img: 'random()'
     },
     {
       name: '8',
-      img: 'The next day the weather was beautiful. '
+      img: 'Returns a number between 0 and 1 at random. '
     },
     {
       name: '9',
-      img: 'Solen sken på alla de gröna kardborrarna.'
+      img: 'round(x) '
     },
     {
       name: '9',
-      img: 'The sun shone on all the green burdocks.'
+      img: 'Rounds the value of x to the nearest integer.'
     },
     {
       name: '10',
-      img: 'Ankmodern med hela sin familj gick ner till kanalen.'
+      img: 'sin(x) '
     },
     {
       name: '10',
-      img: 'The mother duck with her whole family went down to the canal.'
+      img: 'The sine of x is sin(x) (x is in radians)'
     },
     {
       name: '11',
-      img: 'Plask! Hon sprang ut i vattnet. '
+      img: 'sqrt(x)  '
     },
     {
       name: '11',
-      img: 'Splash! She ran into the water.'
+      img: "x's square root"
     },
     {
       name: '12',
-      img: 'Kvack! kvack! sade hon och den ena ankungen efter den andra plumsade ut i vattnet efter henne.'
+      img: 'tan(x) '
     },
     {
       name: '12',
-      img: "Quack! quack! she said, and one duckling after another plunged into the water after her. "
+      img: "The angle's tangent"
     }
   ]
 
