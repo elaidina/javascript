@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Hon är den förnämaste av alla här.'
+      img: 'getDate()'
     },
     {
       name: '1',
-      img: 'She is the most distinguished of all here.'
+      img: "returns the month's day as a number (1-31)"
     },
     {
       name: '2',
-      img: 'Hon är av spanskt blod därför är hon så tjock.'
+      img: 'getTime()'
     },
     {
       name: '2',
-      img: " She is of Spanish blood that's why she is so fat."
+      img: " Get the milliseconds since January 1, 1970"
     },
     {
       name: '3',
-      img: 'Pass på!'
+      img: 'getUTCDate()'
     },
     {
       name: '3',
-      img: 'Look out! '
+      img: "returns the month's day (day) in the supplied date in universal time (also available for day, month, full year, hours, minutes etc.) "
     },
     {
       name: '4',
-      img: ' Inte i hop med benen!'
+      img: ' getMilliseconds()'
     },
     {
       name: '4',
-      img: 'Not messing with the legs! '
+      img: 'This function returns the milliseconds (0-999). '
     },
     {
       name: '5',
-      img: 'En väluppfostrad ankunge sätter ut benen långt ifrån varandra, liksom far och mor.'
+      img: 'getMinutes() '
     },
     {
       name: '5',
-      img: 'A well-behaved duckling puts its legs far apart, like father and mother.'
+      img: 'Returns the current minute (0-59).'
     },
     {
       name: '6',
-      img: 'Se så, nig nu och säg kvack!'
+      img: 'getMonth()'
     },
     {
       name: '6',
-      img: 'Look, you now and say quack!'
+      img: ' returns the current month as a number (0-11)'
     },
     {
       name: '7',
-      img: 'Och det gjorde de, men de andra ankorna runt omkring såg på dem och sade helt högt: '
+      img: 'parse  '
     },
     {
       name: '7',
-      img: 'And they did, but the other ducks around looked at them and said out loud: '
+      img: 'It returns the number of milliseconds since January 1, 1970 from a string representation of a date. '
     },
     {
       name: '8',
-      img: 'Se! Nu skall vi få det där följet också! '
+      img: 'getDay() '
     },
     {
       name: '8',
-      img: 'Look! Now we will get that companion too! '
+      img: 'returns a number representing the weekday (0-6)'
     },
     {
       name: '9',
-      img: 'Precis som om vi inte redan var tillräckligt många! '
+      img: 'getFullYear() '
     },
     {
       name: '9',
-      img: "Just as if there weren't enough of us already! "
-    },
-    {
-      name: '10',
-      img: 'Och fy, så den där ena ungen ser ut! '
-    },
-    {
-      name: '10',
-      img: 'And wow, what does that one kid look like! '
-    },
-    {
-      name: '11',
-      img: 'Honom kan vi ju inte tåla.'
-    },
-    {
-      name: '11',
-      img: "We can't stand him."
-    },
-    {
-      name: '12',
-      img: ' Och strax flög en anka fram och bet honom i nacken.'
-    },
-    {
-      name: '12',
-      img: ' And immediately a duck flew forward and bit him on the neck.'
+      img: "returns the current year as a four-digit value (yyyy) "
     }
   ]
 

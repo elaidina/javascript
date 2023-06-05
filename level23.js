@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: ' Låt honom vara! sade modern. '
+      img: ' getHours() '
     },
     {
       name: '1',
-      img: 'Let him be! said the mother. '
+      img: 'Returns the current hour (0-23) '
     },
     {
       name: '2',
-      img: 'Han gör ju ingen något ont!'
+      img: 'getSeconds() '
     },
     {
       name: '2',
-      img: "He doesn't hurt anyone!"
+      img: "Returns the second number (0-59)"
     },
     {
       name: '3',
-      img: 'Ja, men han är för stor och ovanlig, sade ankan, som hade bitit honom och därför skall han näpsas.'
+      img: 'setDate() '
     },
     {
       name: '3',
-      img: 'Yes, but he is too big and unusual, said the duck, which had bitten him, and therefore he must be pecked.'
+      img: 'Returns the current date as a number (1-31)'
     },
     {
       name: '4',
-      img: 'Det är vackra barn mor har, sade den gamla ankan.'
+      img: 'setFullYear()'
     },
     {
       name: '4',
-      img: 'Mother has beautiful children, said the old duck. '
+      img: 'This function sets the year (optionally month and day) '
     },
     {
       name: '5',
-      img: 'Alla är vackra, så när som på den där ena.'
+      img: 'setMonth()'
     },
     {
       name: '5',
-      img: 'All are beautiful, so when on that one. '
+      img: 'This function sets the month (0-11) '
     },
     {
       name: '6',
-      img: 'Den har inte lyckats.'
+      img: 'setSeconds()'
     },
     {
       name: '6',
-      img: 'It has not succeeded. '
+      img: 'This function sets the seconds (0-59) '
     },
     {
       name: '7',
-      img: 'Jag skulle önska, att hon kunde göra om den.'
+      img: 'setTime()'
     },
     {
       name: '7',
-      img: ' I wish she could redo it.'
+      img: ' This function is used to set the time (milliseconds since January 1, 1970).'
     },
     {
       name: '8',
-      img: 'Det går inte för sig, ers nåd! sade ankmodern.'
+      img: 'setMinutes()'
     },
     {
       name: '8',
-      img: "It doesn't work, your grace! said the mother duck. "
+      img: "This function sets the minutes (0-59). "
     },
     {
       name: '9',
-      img: 'Han är inte vacker, men han är en innerligt god varelse...'
+      img: 'setUTCDate()'
     },
     {
       name: '9',
-      img: 'He is not handsome, but he is a heartily good creature,...'
-    },
-    {
-      name: '10',
-      img: '...och simmar lika vackert som någon av de andra, ja, till och med litet bättre. '
-    },
-    {
-      name: '10',
-      img: '...and swims as beautifully as any of the others, yea, even a little better. '
-    },
-    {
-      name: '11',
-      img: 'Han har legat för länge i ägget. '
-    },
-    {
-      name: '11',
-      img: "He's been in the egg too long. "
-    },
-    {
-      name: '12',
-      img: 'Därför har han inte fått den rätta formen. '
-    },
-    {
-      name: '12',
-      img: 'Therefore, he has not been given the right form.'
+      img: 'According to universal time, sets the day of the month for a given date (also available for day, month, full-year, hours, minutes etc.)'
     }
   ]
 

@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Och så plockade hon honom i nacken och hyfsade till honom.'
+      img: 'setHours()'
     },
     {
       name: '1',
-      img: 'And then she picked him by the neck and treated him well.'
+      img: 'Changes the time (0-23).'
     },
     {
       name: '2',
-      img: 'De andra ungarna är söta, sade den gamla ankan.'
+      img: 'setMilliseconds()'
     },
     {
       name: '2',
-      img: 'The other kids are cute, said the old duck. '
+      img: 'This function sets the milliseconds (0-999). '
     },
     {
       name: '3',
-      img: 'Känn er nu som hemma här och om ni hittar ett ålhuvud så kan ni ge det till mig.'
+      img: 'history'
     },
     {
       name: '3',
-      img: 'Now feel at home here and if you find an eel head, you can give it to me.'
+      img: "Provides the window's History object."
     },
     {
       name: '4',
-      img: 'Den stackars ankungen, som kommit sist ur ägget och var så ful, blev biten, knuffad och hånad av både ankor och höns.'
+      img: 'innerHeight'
     },
     {
       name: '4',
-      img: 'The poor duckling, who was the last to hatch and was so ugly, was bitten, pushed and mocked by both ducks and hens.'
+      img: "The content area of a window's inner height."
     },
     {
       name: '5',
-      img: 'Han är för stor, sade de allesammans och kalkontuppen, som var född med sporrar...'
+      img: 'innerWidth'
     },
     {
       name: '5',
-      img: "He's too big, they all said, and the turkey cock, who was born with spurs..."
+      img: "The content area's inner width."
     },
     {
       name: '6',
-      img: '...och därför trodde sig vara kejsare, blåste upp sig som ett skepp för fulla segel, gick rakt in på honom och så kluckade han och blev helt röd i huvudet.'
+      img: 'closed '
     },
     {
       name: '6',
-      img: '...and therefore thought he was emperor, puffed up like a ship full sails, went right at him, and then he clucked and turned all red in the head.'
+      img: 'Returns true or false depending on whether or not a window has been closed.'
     },
     {
       name: '7',
-      img: 'Den stackars ankungen visste varken hur han skulle stå eller gå. '
+      img: 'pageXOffset '
     },
     {
       name: '7',
-      img: "The poor duckling didn't know how to stand or walk. "
+      img: "The number of pixels offset from the centre of the page. The current document has been horizontally scrolled. "
     },
     {
       name: '8',
-      img: 'Han var så ledsen för att han var så ful och ett åtlöje för hela ankgården.'
+      img: 'pageYOffset'
     },
     {
       name: '8',
-      img: 'He was so sorry for being so ugly and a laughingstock to the whole duck farm.'
+      img: 'The number of pixels offset from the centre of the page. The document has been vertically scrolled.'
     },
     {
       name: '9',
-      img: 'Så gick det den första dagen och sedan blev det allt värre och värre.'
+      img: 'navigator '
     },
     {
       name: '9',
-      img: "That's how it went the first day and then it got worse and worse. "
-    },
-    {
-      name: '10',
-      img: 'Den stackars ankungen blev jagad av dem allihop. '
-    },
-    {
-      name: '10',
-      img: 'The poor duckling was chased by them all.'
-    },
-    {
-      name: '11',
-      img: 'Till och med hans syskon var elaka mot honom och de sade hela tiden :'
-    },
-    {
-      name: '11',
-      img: 'Even his siblings were mean to him and they kept saying: '
-    },
-    {
-      name: '12',
-      img: 'Om katten ändå ville ta dig, ditt otäcka spektakel!'
-    },
-    {
-      name: '12',
-      img: 'If the cat still wanted to take you, you nasty spectacle! '
+      img: "Returns the window's Navigator object. "
     }
   ]
 

@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Vattnet gick över huvudet på dem men de kom snabbt upp igen och flöt så vackert.'
+      img: 'atan(x)'
     },
     {
       name: '1',
-      img: 'The water went over their heads but they quickly came back up and floated so beautifully. '
+      img: 'the numeric value of the arctangent of x '
     },
     {
       name: '2',
-      img: 'Benen gick av sig själva.'
+      img: 'atan2(y,x)'
     },
     {
       name: '2',
-      img: 'The legs went off by themselves.'
+      img: "Arctangent of its arguments' quotient"
     },
     {
       name: '3',
-      img: 'Alla var ute, den fula, grå ungen simmade med.'
+      img: 'ceil(x)'
     },
     {
       name: '3',
-      img: 'Everyone was out, the ugly, gray kid was swimming along.'
+      img: "x's value rounded to the next integer" 
     },
     {
       name: '4',
-      img: 'Nej, det är inte någon kalkon! sade hon.'
+      img: 'cos(x) '
     },
     {
       name: '4',
-      img: "No, it's not a turkey! she said. "
+      img: "The cosine of x is cos(x) (x is in radians) "
     },
     {
       name: '5',
-      img: 'Se bara, hur vackert han använder benen och hur rak han håller sig! '
+      img: 'max(x,y,z,...,n) '
     },
     {
       name: '5',
-      img: ' Just look how beautifully he uses his legs and how straight he stands! '
+      img: ' Returns the highest-valued number.'
     },
     {
       name: '6',
-      img: ' Det är min egen unge.'
+      img: ' min(x,y,z,...,n)'
     },
     {
       name: '6',
-      img:  "It's my own kid. "
+      img:  "The number with the lowest value is the same as the number with the highest value. "
     },
     {
       name: '7',
-      img: 'I själva verket är han ändå ganska vacker, när man riktigt betraktar honom. '
+      img: 'Date() '
     },
     {
       name: '7',
-      img: 'In fact, he is still quite handsome, when you really look at him. '
+      img: 'Returns a new date object that contains the current date and time.'
     },
     {
       name: '8',
-      img: 'Kvack! Kvack! kom nu med, så skall jag föra er ut i världen och presentera er i ankgården.'
+      img: 'Date(1993, 6, 19, 5, 12, 50, 32) Except for the year and month, we can omit anything we like.'
     },
     {
       name: '8',
-      img: ' Quack! Quack! now come along, and I will take you out into the world and introduce you to the duck farm.'
+      img: ' We can create a custom date object with the pattern as Year, month, day, hour, minutes, seconds, and milliseconds are represented by the numbers. '
     },
     {
       name: '9',
-      img: 'Så kom de in i ankgården.'
+      img: 'Date("1999-12-22")'
     },
     {
       name: '9',
-      img: 'Then they entered the duck yard. '
-    },
-    {
-      name: '10',
-      img: 'Det var ett förskräckligt väsen där inne eftersom det var två familjer, som slogs om ett ålhuvud.'
-    },
-    {
-      name: '10',
-      img: ' There was a terrible commotion in there because there were two families fighting over an eel head.'
-    },
-    {
-      name: '11',
-      img: 'Se, så går det till i världen! sade ankmodern och slickade sig om näbben. '
-    },
-    {
-      name: '11',
-      img: "See, that's how the world works! said the mother duck, licking her beak."
-    },
-    {
-      name: '12',
-      img: 'Se till att sköta er och nig med halsen för den gamla ankan där borta! '
-    },
-    {
-      name: '12',
-      img: 'Be sure to watch yourselves and your necks for that old duck over there! '
+      img: 'Date as a string declaration'
     }
   ]
 
