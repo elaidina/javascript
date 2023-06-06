@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Under den stränga vintern fick han utstå nöd och elände. '
+      img: 'onkeydown '
     },
     {
       name: '1',
-      img: 'During the severe winter he had to endure want and misery.'
+      img: 'When the user presses a key down'
     },
     {
       name: '2',
-      img: 'Han låg i mossen bland vassen, då solen åter började att skina varmt, lärkorna sjöng - det var härlig vår.'
+      img: 'onkeypress '
     },
     {
       name: '2',
-      img: 'He was lying in the marsh among the reeds, when the sun again began to shine warmly, the larks sang - it was a lovely spring.'
+      img: 'When the user begins to press a key.'
     },
     {
       name: '3',
-      img: 'Han låg i mossen bland vassen, då solen åter började att skina varmt, lärkorna sjöng - det var härlig vår...'
+      img: 'onkeyup'
     },
     {
       name: '3',
-      img: 'Then he raised even his wings, they whizzed stronger than before...'
+      img: 'A key is released by the user.'
     },
     {
       name: '4',
-      img: '...och bar honom kraftigt framåt och innan han visste av det, var han i en stor trädgård , där äppelträden stod i blom och syrenerna blommade...'
+      img: 'onabort'
     },
     {
       name: '4',
-      img: '...and carried him strongly forward and before he knew it, he was in a large garden, where the apple trees were in bloom and the lilacs bloomed...'
+      img: 'The loading of a media is aborted with onabort.'
     },
     {
       name: '5',
-      img: ' ...och hängde ner mot kanalen.'
+      img: ' onerror '
     },
     {
       name: '5',
-      img: '...and hung down towards the canal.'
+      img: 'When loading an external file, an error occurs.'
     },
     {
       name: '6',
-      img: 'Här var så vackert! '
+      img: 'onpagehide '
     },
     {
       name: '6',
-      img: 'It was so beautiful here!'
+      img: 'When a user leaves a webpage, it is called onpagehide.'
     },
     {
       name: '7',
-      img: 'Och ut ur de täta buskarna mitt framför honom kom tre vackra, vita svanar. '
+      img: 'onpageshow '
     },
     {
       name: '7',
-      img: 'And out of the dense bushes right in front of him came three beautiful, white swans. '
+      img: 'When the user navigates to a webpage '
     },
     {
       name: '8',
-      img: 'De blåste upp fjädrarna och flöt så lätt på vattnet.'
+      img: 'onhashchange'
     },
     {
       name: '8',
-      img: 'They inflated their feathers and floated so easily on the water. '
+      img: 'The anchor component of a URL has been changed. '
     },
     {
       name: '9',
-      img: 'Ankungen kände igen de präktiga djuren och betogs av ett underligt vemod.'
+      img: 'onload '
     },
     {
       name: '9',
-      img: 'The duckling recognized the magnificent animals and was seized with a strange melancholy.'
-    },
-    {
-      name: '10',
-      img: ' Jag vill flyga fram till dem, de kungliga fåglarna men de skulle hugga ihjäl mig, för att jag som är så ful vågar närma mig dem. '
-    },
-    {
-      name: '10',
-      img: ' I want to fly up to them, the royal birds, but they would stab me to death, because I, who am so ugly, dare to approach them.'
-    },
-    {
-      name: '11',
-      img: 'Men det gör det samma! '
-    },
-    {
-      name: '11',
-      img: 'But it does the same! '
-    },
-    {
-      name: '12',
-      img: 'Bättre att dödas av dem än att nypas av ankorna, hackas av hönsen, sparkas av pigan, som sköter hönsgården och slita ont om vintern.'
-    },
-    {
-      name: '12',
-      img: 'Better to be killed by them than to be pinched by the ducks, pecked by the hens, kicked by the maid who looks after the hen house and toil badly in the winter.'
+      img: 'When an object has loaded'
     }
   ]
 

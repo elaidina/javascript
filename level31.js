@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'De utstötte ett helt underligt ljud, bredde ut sina präktiga, långa vingar och flög bort från de kalla trakterna till varmare länder och öppna sjöar. '
+      img: 'onblur'
     },
     {
       name: '1',
-      img: ' They uttered a strange sound, spread their magnificent, long wings, and flew away from the cold regions to warmer lands and open lakes. '
+      img: ' When an element loses focus, it is called onblur.'
     },
     {
       name: '2',
-      img: 'De steg så högt, så högt och den fula , lilla ankungen blev så underlig till mods. '
+      img: 'onchange '
     },
     {
       name: '2',
-      img: 'They climbed so high, so high and the ugly little duckling became so strangely at ease. '
+      img: "A form element's content changes. (for the input>, select>, and textarea> elements) "
     },
     {
       name: '3',
-      img: 'Han vände sig runt omkring i vattnet och  sträckte halsen högt upp i luften efter dem och utstötte ett skri så högt och förunderligt, att han själv blev rädd.'
+      img: 'onfocus '
     },
     {
       name: '3',
-      img: 'He turned around in the water and stretched his neck high into the air after them, and uttered a scream so loud and wonderful that he himself was frightened.'
+      img: 'An aspect is brought into focus.'
     },
     {
       name: '4',
-      img: 'Han kunde inte glömma de vackra fåglarna, de lyckliga fåglarna och då han inte längre kunde se dem, dök han ända ned till bottnen och när han kom upp igen, var han utom sig.'
+      img: 'onfocusin'
     },
     {
       name: '4',
-      img: 'He could not forget the beautiful birds, the happy birds and when he could no longer see them, he dived right down to the bottom and when he came up again, he was beside himself.'
+      img: 'When an element is ready to become the centre of attention.'
     },
     {
       name: '5',
-      img: 'Han visste inte vad fåglarna hette eller vart de flög, men tyckte ändå om dem så, som han ännu aldrig hade tyckt om någon. '
+      img: 'onfocusout  '
     },
     {
       name: '5',
-      img: "He didn't know what the birds were called or where they flew, but still liked them so, as he had never yet liked anyone. "
+      img: "The element is about to lose focus. "
     },
     {
       name: '6',
-      img: 'Han var inte avundsjuk på dem. '
+      img: 'oninput '
     },
     {
       name: '6',
-      img: 'He was not jealous of them. '
+      img: "When a user inputs something into an element, it's called oninput. "
     },
     {
       name: '7',
-      img: 'Han skulle varit glad, om bara ankorna velat ha honom bland sig, det stackars fula djuret!'
+      img: 'oninvalid '
     },
     {
       name: '7',
-      img: 'He would have been happy, if only the ducks wanted him among them, the poor ugly animal!'
+      img: "If an element isn't valid, it's called oninvalid."
     },
     {
       name: '8',
-      img: 'Och vintern blev så kall, så kall.'
+      img: 'onreset '
     },
     {
       name: '8',
-      img: 'And the winter got so cold, so cold.'
+      img: 'The state of a form is reset.'
     },
     {
       name: '9',
-      img: 'Ankungen måste simma omkring i vattnet för att hindra att det skulle frysa till. '
+      img: 'onsearch '
     },
     {
       name: '9',
-      img: 'The duckling must swim around in the water to prevent it from freezing.'
-    },
-    {
-      name: '10',
-      img: 'Men med varje natt blev hålet, som han simmade i, allt mindre och mindre.'
-    },
-    {
-      name: '10',
-      img: 'But with each night the hole in which he swam became smaller and smaller. '
-    },
-    {
-      name: '11',
-      img: 'Det frös så, att det knakade i isskorpan. '
-    },
-    {
-      name: '11',
-      img: ' It froze so hard that it cracked the ice crust. '
-    },
-    {
-      name: '12',
-      img: 'Ankungen måste ständigt röra benen, så att vattnet inte skulle frysa till. '
-    },
-    {
-      name: '12',
-      img: 'The duckling must constantly move its legs, so that the water would not freeze.'
+      img: ' A user enters text into a search field (for input="search">).'
     }
   ]
 

@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Till slut blev han utmattad, låg alldeles stilla och frös fast i isen.'
+      img: 'onselect '
     },
     {
       name: '1',
-      img: 'Finally he became exhausted, lay very still and froze in the ice.'
+      img: 'The user chooses some text (input> and textarea>).'
     },
     {
       name: '2',
-      img: 'Tidigt på morgonen kom en bonde. '
+      img: 'onsubmit  '
     },
     {
       name: '2',
-      img: 'Early in the morning a farmer came.'
+      img: 'A form is filled out and submitted.'
     },
     {
       name: '3',
-      img: 'Han fick se honom, gick ut och slog med sin träsko sönder isen och bar så ankungen hem till sin hustru. '
+      img: 'ondrag  '
     },
     {
       name: '3',
-      img: 'He got to see him, went out and broke the ice with his clog, and then carried the duckling home to his wife.'
+      img: 'When an element is dragged, it is called ondrag.'
     },
     {
       name: '4',
-      img: 'Där blev han återkallad till livet.'
+      img: 'ondragend '
     },
     {
       name: '4',
-      img: 'There he was recalled to life.'
+      img: 'The element has been dragged to its final position.'
     },
     {
       name: '5',
-      img: 'Barnen ville leka med honom, men ankungen trodde, att de ville göra honom illa och for i förskräckelsen upp i mjölkfatet, ...'
+      img: 'ondragenter '
     },
     {
       name: '5',
-      img: 'The children wanted to play with him, but the duckling thought that they wanted to hurt him and, in terror, ran into the milk dish, ...'
+      img: 'When a dragged element enters a drop target, it is called ondragenter.'
     },
     {
       name: '6',
-      img: '...så att mjölken skvalpade ut på golvet. '
+      img: 'ondragleave '
     },
     {
       name: '6',
-      img: '...so that the milk splashed onto the floor. '
+      img: 'When a dragged element departs the drop target, it is called ondragleave. '
     },
     {
       name: '7',
-      img: 'Gumman skrek och slog med händerna i vädret, så flög han i tråget, där smöret låg och så ned i mjöltunnan och upp igen. '
+      img: 'ondragover '
     },
     {
       name: '7',
-      img: 'The old woman screamed and clapped her hands in the air, then he flew into the trough where the butter was and then down into the flour barrel and up again. '
+      img: 'The dropped element is on top of the dragged element.'
     },
     {
       name: '8',
-      img: 'Åh, så han såg ut! '
+      img: 'ondragstart  '
     },
     {
       name: '8',
-      img: 'Oh, what he looked like!'
+      img: ' The user begins dragging an element.'
     },
     {
       name: '9',
-      img: 'Gumman skrek och slog efter honom med eldtången...'
+      img: 'ondrop'
     },
     {
       name: '9',
-      img: 'The old woman screamed and hit him with the tongs ...'
-    },
-    {
-      name: '10',
-      img: '...och barnen sprang omkull varandra för att fånga ankungen och de skrattade och skrek. '
-    },
-    {
-      name: '10',
-      img: '...and the children ran over each other to catch the duckling and they laughed and screamed. '
-    },
-    {
-      name: '11',
-      img: ' Som tur var stod  dörren öppen. '
-    },
-    {
-      name: '11',
-      img: 'Luckily the door was open. '
-    },
-    {
-      name: '12',
-      img: 'Ut for han bland buskarna i den nyfallna snön - och där låg han som i dvala.'
-    },
-    {
-      name: '12',
-      img: 'He went out among the bushes in the newly fallen snow - and there he lay as if asleep.'
+      img: 'When a dragged element is dropped on a drop target, it is called ondrop.   '
     }
   ]
 

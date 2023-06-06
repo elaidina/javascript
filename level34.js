@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Han flög ut i vattnet och simmade fram mot de präktiga svanarna. '
+      img: 'onresize  '
     },
     {
       name: '1',
-      img: 'He flew into the water and swam towards the magnificent swans. '
+      img: 'The document view gets resized when onresize is called. '
     },
     {
       name: '2',
@@ -72,30 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: '9',
       img: 'Out into the garden came some small children.'
-    },
-    {
-      name: '10',
-      img: 'De kastade bröd och säd ut i vattnet. '
-    },
-    {
-      name: '10',
-      img: 'They threw bread and grain into the water. '
-    },
-    {
-      name: '11',
-      img: 'Det minsta ropade: '
-    },
-    {
-      name: '11',
-      img: 'The smallest cried:'
-    },
-    {
-      name: '12',
-      img: 'Där är en ny! '
-    },
-    {
-      name: '12',
-      img: 'There is a new one! '
     }
   ]
 

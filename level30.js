@@ -3,75 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Se nu bara till, att du lägger ägg och lär dig spinna eller gnistra!'
+      img: 'oncontextmenu'
     },
     {
       name: '1',
-      img: 'Now just make sure you lay eggs and learn to purr or sparkle!'
+      img: 'When a user right-clicks on an element, a context menu appears.'
     },
     {
       name: '2',
-      img: ' Jag tror, att jag vill gå ut i vida världen, sade ankungen.'
+      img: ' ondblclick '
     },
     {
       name: '2',
-      img: 'I think I want to go out into the wide world, said the duckling.'
+      img: 'When a user double-clicks on an element, it is called ondblclick.'
     },
     {
       name: '3',
-      img: 'Ja, gör det du! sade hönan.'
+      img: 'onmousedown'
     },
     {
       name: '3',
-      img: 'Yes, you do! said the hen.'
+      img: 'When a user moves their mouse over an element, it is called onmousedown.'
     },
     {
       name: '4',
-      img: 'Och så gick ankungen. '
+      img: 'onmouseenter'
     },
     {
       name: '4',
-      img: 'And so the duckling went. '
+      img: 'The mouse pointer is moved to a certain element.'
     },
     {
       name: '5',
-      img: 'Han flöt på vattnet, han dök, men av alla djur sågs han över axeln för sin fulhet.'
+      img: 'onmouseleave '
     },
     {
       name: '5',
-      img: 'He floated on the water, he dived, but of all the animals he was looked over the shoulder for his ugliness.'
+      img: 'The pointer leaves an element.'
     },
     {
       name: '6',
-      img: 'Nu kom hösten, löven i skogen blev gula och bruna  och uppe i luften såg det kallt ut. '
+      img: 'onmousemove '
     },
     {
       name: '6',
-      img: 'Now autumn came, the leaves in the forest turned yellow and brown and up in the air it looked cold. '
+      img: 'When the pointer is over an element, it moves. '
     },
     {
       name: '7',
-      img: 'Molnen hängde tunga.'
+      img: 'onmouseover'
     },
     {
       name: '7',
-      img: 'The clouds hung heavy.'
+      img: 'When the cursor is moved onto an element or one of its descendants, the term onmouseover is used.'
     },
     {
       name: '8',
-      img: ' Ja, man kunde riktigt frysa, då man tänkte på det.'
+      img: 'onmouseout'
     },
     {
       name: '8',
-      img: 'Yes, you could really freeze, when you thought about it. '
+      img: 'When the user moves the mouse cursor away from an element or one of its descendants, it is called onmouseout. '
     },
     {
       name: '9',
-      img: 'Den stackars ankungen hade verkligen inte trevligt.'
+      img: 'onmouseup'
     },
     {
       name: '9',
-      img: "The poor duckling really didn't have a good time."
+      img: "When a user releases a mouse button while hovering over an element, it is known as onmouseup."
     }
   ]
 
