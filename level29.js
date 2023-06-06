@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'sade ankungen.'
+      img: 'stop() '
     },
     {
       name: '1',
-      img: "said the duckling."
+      img: "This function prevents the window from loading."
     },
     {
       name: '2',
-      img: 'Så härligt att få det över huvudet och dyka ned till bottnen.'
+      img: 'height '
     },
     {
       name: '2',
-      img: 'So lovely to get it over your head and dive down to the bottom.'
+      img: "The screen's entire height."
     },
     {
       name: '3',
-      img: 'Jo, det är just ett stort nöje! sade hönan.'
+      img: 'pixelDepth'
     },
     {
       name: '3',
-      img: "Yes, it's just a great pleasure! said the hen. "
+      img: "The screen's colour resolution in bits per pixel. "
     },
     {
       name: '4',
-      img: 'Du måste visst ha blivit tokig! '
+      img: 'width '
     },
     {
       name: '4',
-      img: 'You must have gone crazy! '
+      img: "The screen's entire width."
     },
     {
       name: '5',
-      img: 'Fråga katten, som är den klokaste jag känner, om han tycker om att flyta på vattnet eller dyka ned.'
+      img: 'colorDepth'
     },
     {
       name: '5',
-      img: 'Ask the cat, who is the smartest I know, if he likes to float on water or dive.'
+      img: "Gets the colour palette's bit depth for showing images." 
     },
     {
       name: '6',
-      img: ' Jag vill inte tala om mig. '
+      img: ' availableHeight '
     },
     {
       name: '6',
-      img: "I don't want to talk about me."  
+      img: "Returns the screen's height (excluding the Windows Taskbar)."  
     },
     {
       name: '7',
-      img: 'Fråga själva vårt herskap, den gamla gumman.'
+      img: 'availableWidth'
     },
     {
       name: '7',
-      img: ' Ask our Lordship herself, the old lady.'
+      img: "Returns the screen's width (excluding the Windows Taskbar)." 
     },
     {
       name: '8',
-      img: 'Klokare än hon fins ingen i världen. '
+      img: 'JavaScript Events '
     },
     {
       name: '8',
-      img: 'There is no one in the world wiser than her.'
+      img: 'Things that can happen to HTML components and are executed by the user in JavaScript.'
     },
     {
       name: '9',
-      img: 'Tror du, att hon har lust att flyta och få vatten över huvudet?'
+      img: 'onclick'
     },
     {
       name: '9',
-      img: 'Do you think she wants to float and get water over her head?      '
-    },
-    {
-      name: '10',
-      img: 'Ni förstår mig inte, sade ankungen.'
-    },
-    {
-      name: '10',
-      img: "You don't understand me, said the duckling."
-    },
-    {
-      name: '11',
-      img: ' Ja, om inte vi förstår dig, vem skulle då förstå dig? '
-    },
-    {
-      name: '11',
-      img: "Yes, if we don't understand you, then who would understand you?"
-    },
-    {
-      name: '12',
-      img: 'Du tror väl inte att du kan vara klokare än katten och gumman, för att inte tala om mig?'
-    },
-    {
-      name: '12',
-      img: "You don't think you can be wiser than the cat and the old woman, not to mention me?"
+      img: 'When a user clicks on an element, an event is triggered. '
     }
   ]
 

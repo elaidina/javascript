@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Den stackarn!'
+      img: 'parent'
     },
     {
       name: '1',
-      img: ' The poor thing!'
+      img: "The current window's parent window is called parent." 
     },
     {
       name: '2',
-      img: 'han tänkte visst inte på att gifta sig, bara han fick lov att ligga i vassen och dricka litet vatten.'
+      img: 'screen '
     },
     {
       name: '2',
-      img: "he certainly didn't think of getting married, only he was allowed to lie in the reeds and drink a little water."
+      img: "Returns the window's Screen object."
     },
     {
       name: '3',
-      img: 'Han väntade flera timmar, innan han såg sig om och så skyndade han bort från mossen allt vad han kunde.'
+      img: 'screenLeft '
     },
     {
       name: '3',
-      img: 'He waited several hours before he looked around and then he hurried away from the marsh as fast as he could.'
+      img: "The window's horizontal coordinate (relative to the screen)"
     },
     {
       name: '4',
-      img: 'Han sprang över fält och äng och det var en sådan blåst, att han hade svårt att komma framåt. '
+      img: 'screenTop '
     },
     {
       name: '4',
-      img: 'He ran across fields and meadows and there was such a wind that he had difficulty moving forward. '
+      img: "The window's vertical coordinate. "
     },
     {
       name: '5',
-      img: 'Fram mot kvällen kom han till en fattig liten bondstuga. '
+      img: 'self  '
     },
     {
       name: '5',
-      img: "Towards evening he came to a poor little peasant's cottage. "
+      img: "Returns the window that is currently open. "
     },
     {
       name: '6',
-      img: 'Den var så eländig, att den inte själv visste åt vilken sida den skulle ramla så den blev stående. '
+      img: 'status  '
     },
     {
       name: '6',
-      img: "It was so miserable that it didn't know which side it was going to fall on so it stayed standing."
+      img: "Changes or restores the text in a window's status bar."
     },
     {
       name: '7',
-      img: 'Blåsten susade till den grad omkring ankungen, att han måste sätta sig på stjärten för att hålla mot och det blev allt värre och värre. '
+      img: 'top '
     },
     {
       name: '7',
-      img: 'The wind whizzed around the duckling to such an extent that he had to sit on his tail to hold on and it got worse and worse. '
+      img: ' Returns the browser window that is currently at the top of the screen. '
     },
     {
       name: '8',
-      img: 'Nu märkte han, att dörrens ena gångjärn hade lossnat och dörren hängde så snett att han genom springan kunde smyga sig in i rummet och det gjorde han.'
+      img: 'screenX'
     },
     {
       name: '8',
-      img: "Now he noticed that one of the door's hinges had come loose and the door hung so crooked that he could sneak into the room through the gap, and he did."
+      img: " Identical to screenLeft, but required by some browsers"
     },
     {
       name: '9',
-      img: 'Här bodde en gammal gumma med sin katt och sin höna. '
+      img: 'screenY '
     },
     {
       name: '9',
-      img: 'Here lived an old woman with her cat and her hen.'
-    },
-    {
-      name: '10',
-      img: 'Katten, som hon kallade Kisserulten, kunde skjuta rygg och spinna, han gnistrade till och med, ...'
-    },
-    {
-      name: '10',
-      img: 'The cat, which she called Kisserulten, could arch his back and purr, he even sparkled,...'
-    },
-    {
-      name: '11',
-      img: '...men då måste man stryka honom mot håren.'
-    },
-    {
-      name: '11',
-      img: '...but then you had to stroke his hair. '
-    },
-    {
-      name: '12',
-      img: 'Hönan hade mycket små, korta ben och kallades därför Kyckelikortben.'
-    },
-    {
-      name: '12',
-      img: 'The hen had very small, short legs and was therefore called Chicken Short Legs. '
+      img: 'Identical to screenTop, but required by some browsers'
     }
   ]
 

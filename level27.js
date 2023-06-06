@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Hon värpte snällt och gumman höll av henne som sitt eget barn.'
+      img: 'alert()'
     },
     {
       name: '1',
-      img: 'She gave birth nicely and the old woman cared for her like her own child.'
+      img: 'Shows a message and an OK button in an alert box.'
     },
     {
       name: '2',
-      img: 'På morgonen märkte man snabbt den främmande ankungen och katten började spinna och hönan kackla.'
+      img: 'setInterval()'
     },
     {
       name: '2',
-      img: 'In the morning, the strange duckling was quickly noticed and the cat began to purr and the hen to cluck.'
+      img: 'Calls a function or evaluates an expression at intervals defined by the user.'
     },
     {
       name: '3',
-      img: 'Vad för något! '
+      img: 'setTimeout() '
     },
     {
       name: '3',
-      img: 'What! '
+      img: ' After a specified interval, calls a function or evaluates an expression. '
     },
     {
       name: '4',
-      img: 'sade gumman och såg sig runt omkring. '
+      img: 'clearInterval()  '
     },
     {
       name: '4',
-      img: 'said the old woman, looking around.'
+      img: ' Removes a timer that was started with setInterval() ()'
     },
     {
       name: '5',
-      img: 'Men hon såg inte så bra och så trodde hon, att ankungen var en fet anka, som hade kommit vilse.'
+      img: 'clearTimeout()'
     },
     {
       name: '5',
-      img: "But she couldn't see very well and so she thought the duckling was a fat duck that had gotten lost. "
+      img: "Removes the timer that was set with setTimeout() () "
     },
     {
       name: '6',
-      img: 'Det var ju en rar fångst! sade hon.'
+      img: 'open()'
     },
     {
       name: '6',
-      img: ' It was a rare catch! she said.'
+      img: ' This method creates a new browser window.'
     },
     {
       name: '7',
-      img: 'Nu kan jag få ankägg, bara det inte är en ankhanne. '
+      img: 'print()  '
     },
     {
       name: '7',
-      img: "Now I can get duck eggs, as long as it's not a male duck. "
+      img: "Prints the current window's content."
     },
     {
       name: '8',
-      img: 'Det måste vi pröva.'
+      img: 'blur()'
     },
     {
       name: '8',
-      img: 'We have to try that.'
+      img: "Removes the current window's focus."
     },
     {
       name: '9',
-      img: 'Och så blev ankungen antagen på prov i tre veckor men det blev inga ägg. '
+      img: 'moveBy()  '
     },
     {
       name: '9',
-      img: 'And so the duckling was accepted for testing for three weeks, but there were no eggs. '
-    },
-    {
-      name: '10',
-      img: "Katten var herre i huset, och hönan var fru och alltid sade de:"
-    },
-    {
-      name: '10',
-      img: ' The cat was the master of the house, and the hen was the wife, and they always said:  '
-    },
-    {
-      name: '11',
-      img: 'Vi och världen! De trodde, att de utgjorde hälften av den och det var den allra bästa delen.      '
-    },
-    {
-      name: '11',
-      img: 'We and the world!They thought they made up half of it and that was the very best part.'
-    },
-    {
-      name: '12',
-      img: 'Ankungen tyckte, att man också kunde ha en annan åsikt, men det kunde hönan inte tåla.'
-    },
-    {
-      name: '12',
-      img: 'The duckling thought that you could also have a different opinion, but the hen could not stand that.'
+      img: ' Repositions a window with respect to its present position. '
     }
   ]
 

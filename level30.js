@@ -72,30 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: '9',
       img: "The poor duckling really didn't have a good time."
-    },
-    {
-      name: '10',
-      img: 'En kväll när solen gick ned kom en hel flock stora vackra fåglar ut ur buskarna.'
-    },
-    {
-      name: '10',
-      img: 'One evening when the sun was setting, a whole flock of big beautiful birds came out of the bushes.'
-    },
-    {
-      name: '11',
-      img: 'Ankungen hade aldrig sett några så vackra, de var alldeles skinande vita, med långa, smidiga halsar.'
-    },
-    {
-      name: '11',
-      img: 'The duckling had never seen any so beautiful, they were absolutely shining white, with long, flexible necks.'
-    },
-    {
-      name: '12',
-      img: 'Det var svanar.'
-    },
-    {
-      name: '12',
-      img: ' It was swans.'
     }
   ]
 
