@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Så mycken lycka drömde jag inte om, då jag var den fula ankungen!'
+      img: 'oncanplay '
     },
     {
       name: '1',
-      img: "I didn't dream of so much happiness when I was the ugly duckling!"
+      img: "The browser has the ability to begin playing media (e.g. a file has buffered enough)."
     },
     {
       name: '2',
-      img: 'En kväll för länge sedan tog en ung prinsessa på sig sin hätta och sina träskor och gick ut för att ta sig en  promenad i skogen.'
+      img: 'oncanplaythrough '
     },
     {
       name: '2',
-      img: 'One evening long ago, a young princess put on her bonnet and clogs and went out for a walk in the forest. '
+      img: 'The browser is capable of playing media without pausing.'
     },
     {
       name: '3',
-      img: 'Efter en stund kom hon till en vacker springbrunn, där hon satte sig ner, för att vila. '
+      img: 'ondurationchange '
     },
     {
       name: '3',
-      img: 'After a while she came to a beautiful fountain, where she sat down to rest.'
+      img: "The media's duration changes."
     },
     {
       name: '4',
-      img: 'Hon hade en gyllene boll i sin hand.'
+      img: 'onended'
     },
     {
       name: '4',
-      img: 'She had a golden ball in her hand.'
+      img: "The media's time has come to an end."
     },
     {
       name: '5',
-      img: 'Det var hennes favoritleksak, som hon nästan alltid gick och jonglerade med. '
+      img: 'onsuspend  '
     },
     {
       name: '5',
-      img: 'It was her favorite toy, which she almost always juggled.'
+      img: 'The browser is not loading media on purpose.'
     },
     {
       name: '6',
-      img: 'Hon satt nu vid brunnen och kastade bollen upp i luften för att sedan fånga den när den föll ner. '
+      img: 'ontimeupdate '
     },
     {
       name: '6',
-      img: 'She was now sitting by the well and threw the ball into the air and then caught it as it fell down. '
+      img: 'The situation has shifted (e.g. because of fast forward). '
     },
     {
       name: '7',
-      img: 'Efter en stund kastade hon den så högt, att hon missade att fånga den. '
+      img: 'onvolumechange'
     },
     {
       name: '7',
-      img: 'After a while she threw it so high that she missed catching it. '
+      img: 'The volume of the media has changed (including mute). '
     },
     {
       name: '8',
-      img: 'Bollen föll ner på marken, studsade iväg och rullade sedan på marken tills den så småningom föll ner i brunnen.'
+      img: 'onwaiting'
     },
     {
       name: '8',
-      img: 'The ball fell to the ground, bounced off, then rolled on the ground until it eventually fell into the well.'
+      img: 'The media has taken a break, but it is anticipated to resume soon (for example, buffering).'
     },
     {
       name: '9',
-      img: 'Prinsessan tittade i brunnen efter sin boll, men brunnen var väldigt djup, så djup att hon inte såg botten på den. '
+      img: 'onplaying  '
     },
     {
       name: '9',
-      img: 'The princess looked in the well for her ball, but the well was very deep, so deep that she could not see the bottom of it.'
-    },
-    {
-      name: '10',
-      img: 'Hon började olyckligt gråta över sin förlust och sa:'
-    },
-    {
-      name: '10',
-      img: 'She began to weep miserably at her loss, and said, '
-    },
-    {
-      name: '11',
-      img: 'Om jag bara kunde få min boll tillbaka igen, skulle jag ge bort alla mina fina kläder och juveler,...'
-    },
-    {
-      name: '11',
-      img: 'If I could only get my ball back again, I would give away all my fine clothes and jewels,...'
-    },
-    {
-      name: '12',
-      img: '...ja allt som jag hade i denna värld.'
-    },
-    {
-      name: '12',
-      img: '...yea, all that I had in this world.'
+      img: 'Media that has been paused or halted for buffering is now playing.'
     }
   ]
 

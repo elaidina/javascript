@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Medan hon pratade, stack en groda upp huvudet ur vattnet och sa:'
+      img: 'onprogress'
     },
     {
       name: '1',
-      img: 'While she was talking, a frog stuck its head out of the water and said,'
+      img: 'The media is being downloaded by the browser.'
     },
     {
       name: '2',
-      img: 'Prinsessa, varför är du så ledsen?'
+      img: 'onratechange'
     },
     {
       name: '2',
-      img: 'Princess, why are you so sad?'
+      img: "The media's playback speed changes."
     },
     {
       name: '3',
-      img: 'Äh! sa hon'
+      img: 'onseeking'
     },
     {
       name: '3',
-      img: 'Uh! said she'
+      img: 'The user begins to move/skip.'
     },
     {
       name: '4',
-      img: 'Vad kan väl du göra för mig din elaka groda?'
+      img: 'transitionend '
     },
     {
       name: '4',
-      img: 'What can you do for me you mean frog?'
+      img: 'When a CSS transition is complete, this event is triggered.'
     },
     {
       name: '5',
-      img: 'Min gyllene boll har ramlat ner i brunnen.'
+      img: 'onmessage'
     },
     {
       name: '5',
-      img: 'My golden ball has fallen into the well.'
+      img: 'The event source has received a message.'
     },
     {
       name: '6',
-      img: 'Grodan sa då:'
+      img: 'onpopstate'
     },
     {
       name: '6',
-      img: 'The frog then said:'
+      img: 'When the history of the window changes'
     },
     {
       name: '7',
-      img: 'Jag vill inte ha dina fina kläder, dina juveler eller pärlor men om du kommer att älska mig,...'
+      img: 'onshow '
     },
     {
       name: '7',
-      img: "I don't want your fine clothes, your jewels or pearls but if you will love me, ..."
+      img: " A <menu> element is shown as a context menu when it is onshow."
     },
     {
       name: '8',
-      img: '... låta mig leva med dig, äta från dina gyllene tallrikar och sova i din säng, ...'
+      img: 'onoffline'
     },
     {
       name: '8',
-      img: '...let me live with you, eat from your golden plates and sleep in your bed,...'
+      img: 'The browser switches to offline mode.'
     },
     {
       name: '9',
-      img: '...då skall jag ge dig tillbaka din boll.'
+      img: 'ononline '
     },
     {
       name: '9',
-      img: '...then I will give you back your ball. '
-    },
-    {
-      name: '10',
-      img: 'Vilket trams'
-    },
-    {
-      name: '10',
-      img: 'What nonsense'
-    },
-    {
-      name: '11',
-      img: 'tänkte prinsessan'
-    },
-    {
-      name: '11',
-      img: 'thought the princess'
-    },
-    {
-      name: '12',
-      img: 'den här dumma grodan pratar'
-    },
-    {
-      name: '12',
-      img: 'this stupid frog is talking'
+      img: 'The browser enters the online mode. '
     }
   ]
 

@@ -19,83 +19,59 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: '3',
-      img: 'Och de klappade händerna och dansade runt omkring, sprang efter far och mor och så kastades bröd i vattnet och alla sade de: '
+      img: 'onloadedmetadata '
     },
     {
       name: '3',
-      img: 'And they clapped their hands and danced around, ran after father and mother and then bread was thrown into the water and they all said: '
+      img: 'Metadata is loaded (such as size and duration).'
     },
     {
       name: '4',
-      img: 'Den nya är den vackraste!'
+      img: 'onloadstart '
     },
     {
       name: '4',
-      img: ' The new one is the most beautiful!'
+      img: ' The browser begins looking for the media that has been specified.'
     },
     {
       name: '5',
-      img: 'Så ung och så söt!'
+      img: 'onabort '
     },
     {
       name: '5',
-      img: 'So young and so cute!'
+      img: 'The loading of media has been halted.'
     },
     {
       name: '6',
-      img: 'Och de gamla svanarna bugade sig för honom. '
+      img: 'onerror'
     },
     {
       name: '6',
-      img: 'And the old swans bowed to him. '
+      img: 'When an error occurs while loading an external file, the event onerror is triggered.'
     },
     {
       name: '7',
-      img: 'Då kände han sig helt blyg och stack huvudet bakom vingarna.'
+      img: 'onpause'
     },
     {
       name: '7',
-      img: 'Then he felt completely shy and stuck his head behind his wings. '
+      img: 'Media is paused, either manually or automatically, by the user. '
     },
     {
       name: '8',
-      img: 'Han visste inte hur det var. '
+      img: 'onplay '
     },
     {
       name: '8',
-      img: "He didn't know how it was. "
+      img: "The video or audio has begun or is no longer paused."
     },
     {
       name: '9',
-      img: 'Han var allt för lycklig, men alls inte stolt, för ett gott hjärta blir aldrig stolt. '
+      img: 'onstalled '
     },
     {
       name: '9',
-      img: 'He was all too happy, but not at all proud, for a good heart is never proud. '
-    },
-    {
-      name: '10',
-      img: 'Han tänkte på, hur han hade varit förföljd och förhånad och hörde nu alla säga, att han var den vackraste av alla vackra fåglar. '
-    },
-    {
-      name: '10',
-      img: 'He thought of how he had been persecuted and mocked and now heard everyone say that he was the most beautiful of all beautiful birds.'
-    },
-    {
-      name: '11',
-      img: 'Och syrenerna böjde sig med kvistarna ända ned i vattnet till honom och solen sken så varmt och så gott. '
-    },
-    {
-      name: '11',
-      img: 'And the lilacs bent their branches right down to him in the water, and the sun shone so warm and so good. '
-    },
-    {
-      name: '12',
-      img: 'Då blåste hans fjädrar upp sig, den smidiga halsen höjde sig och ur hjärtat jublade han:'
-    },
-    {
-      name: '12',
-      img: 'Then his feathers puffed up, his supple neck rose, and from his heart he exulted:'
+      img: 'The browser is attempting to load the media, but it is not currently accessible. '
     }
   ]
 

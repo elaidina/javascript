@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: ' Han kan ju inte ens komma ur vattnet för att besöka mig,...'
+      img: ' ontouchcancel '
     },
     {
       name: '1',
-      img: "He can't even get out of the water to visit me,..."
+      img: "The user's ability to touch the screen has been halted."
     },
     {
       name: '2',
-      img: '...men han kan nog hämta min boll. '
+      img: 'ontouchstart'
     },
     {
       name: '2',
-      img: '...but he can probably get my ball. '
+      img: 'The touch-screen is activated by placing a finger on it.'
     },
     {
       name: '3',
-      img: 'Därför skall jag säga att han får allt han ber om.'
+      img: 'onstorage'
     },
     {
       name: '3',
-      img: 'Therefore I shall say that he gets everything he asks for.'
+      img: 'An part of Web Storage has been upgraded.'
     },
     {
       name: '4',
-      img: 'Hon sa då till grodan: '
+      img: 'ontoggle '
     },
     {
       name: '4',
-      img: 'She then said to the frog: '
+      img: 'The user toggles the details> element open or closed. '
     },
     {
       name: '5',
-      img: 'Om du hämtar min boll, skall du få allt du bett om.'
+      img: 'onwheel '
     },
     {
       name: '5',
-      img: 'If you get my ball, you will get everything you asked for.'
+      img: 'The mouse wheel moves up and down when it passes over an element.'
     },
     {
       name: '6',
-      img: 'Grodan dök då ner under vattnet ...'
+      img: 'ontouchend'
     },
     {
       name: '6',
-      img: 'The frog then dived under the water ...'
+      img: "A touch-screen user's finger is withdrawn."
     },
     {
       name: '7',
-      img: '...och efter en stund kom den upp igen med bollen i munnen ...'
+      img: 'ontouchmove'
     },
     {
       name: '7',
-      img: '...and after a while it came up again with the ball in its mouth ...'
+      img: 'When a finger is dragged over the screen, it is called ontouchmove.'
     },
     {
       name: '8',
-      img: '...och lade den på brunnskanten.'
+      img: 'Event propagation'
     },
     {
       name: '8',
-      img: '...and placed it on the edge of the well.'
+      img: ' A technique that governs how events propagate through the DOM tree to reach their destination, as well as what happens to them once they arrive. '
     },
     {
       name: '9',
-      img: 'Så snart prinsessan såg bollen, ...'
+      img: 'Event propagation in current browsers is divided into two phases:'
     },
     {
       name: '9',
-      img: 'As soon as the princess saw the ball, ...'
-    },
-    {
-      name: '10',
-      img: '...sprang hon förtjust fram och plockade upp den ...'
-    },
-    {
-      name: '10',
-      img: '...she excitedly ran forward and picked it up...'
-    },
-    {
-      name: '11',
-      img: '... och tänkte inte mer på grodan,...'
-    },
-    {
-      name: '11',
-      img: '...and thought no more of the frog, ...'
-    },
-    {
-      name: '12',
-      img: '...utan sprang hem så fort hon kunde.'
-    },
-    {
-      name: '12',
-      img: '...but ran home as fast as she could. '
+      img: 'capturing and bubbling'
     }
   ]
 
