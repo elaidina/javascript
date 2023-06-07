@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Nu är jag trött. '
+      img: 'finally  '
     },
     {
       name: '1',
-      img: 'Now I am tired.'
+      img: 'JavaScript also allows us to run our code regardless of the outcome of try and catch.'
     },
     {
       name: '2',
@@ -72,30 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: '9',
       img: 'thought the princess'
-    },
-    {
-      name: '10',
-      img: 'nu har han gått och han kommer inte att besvära mig mer.'
-    },
-    {
-      name: '10',
-      img: 'now he has gone and he will trouble me no more.'
-    },
-    {
-      name: '11',
-      img: 'Men hon bedrog sig för till kvällen hörde hon samma konstiga steg i yttertrappan,...'
-    },
-    {
-      name: '11',
-      img: 'But she was deceived because in the evening she heard the same strange footsteps on the front steps,...'
-    },
-    {
-      name: '12',
-      img: '...samma knackning på dörren och grodans röst som ännu en gång ropade:'
-    },
-    {
-      name: '12',
-      img: "...the same knocking on the door and the frog's voice calling once more:"
     }
   ]
 

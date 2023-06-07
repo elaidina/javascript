@@ -3,99 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Då sprang prinsessan fram till dörren och öppnade den.'
+      img: 'When invoking a function, async callbacks are functions that are passed as arguments...'
     },
     {
       name: '1',
-      img: 'Then the princess ran to the door and opened it. '
+      img: "...and begin executing code in the background."
     },
     {
       name: '2',
-      img: 'Hon fick då syn på grodan, som hon fullkomligt hade glömt bort.'
+      img: 'When the time comes,'
     },
     {
       name: '2',
-      img: 'She then caught sight of the frog, which she had completely forgotten.'
+      img: 'the contained function is in charge of calling the callback function.'
     },
     {
       name: '3',
-      img: 'Vid denna syn blev hon rädd, ...'
+      img: "fetch(items.json').then(function(res) {return res.json(); }).then(function(json) {"
     },
     {
       name: '3',
-      img: 'At this sight she was frightened, ...'
+      img: "let item = json;     initialise(item); }).catch(function(e) {    console.log('Fetch error: ' + e.message);     });"
     },
     {
       name: '4',
-      img: '...stängde snabbt dörren och återvände till bordet.'
+      img: 'A promise is an object that represents whether ...'
     },
     {
       name: '4',
-      img: '...quickly closed the door and returned to the table. '
+      img: '... the async operation succeeded or failed. '
     },
     {
       name: '5',
-      img: 'Hennes far, kungen, såg att något hade skrämt henne och frågade vad det var. '
+      img: 'Callback Hell '
     },
     {
       name: '5',
-      img: 'Her father, the king, saw that something had frightened her and asked what it was.'
+      img: 'layers upon layers of nested callbacks'
     },
     {
       name: '6',
-      img: 'Det är en otäck groda vid dörren.'
+      img: 'Heap memory'
     },
     {
       name: '6',
-      img: "There's a nasty frog at the door."
-    },
-    {
-      name: '7',
-      img: 'sa hon'
-    },
-    {
-      name: '7',
-      img: 'she said'
-    },
-    {
-      name: '8',
-      img: 'Han hämtade upp min boll ur brunnen i morse.'
-    },
-    {
-      name: '8',
-      img: 'He picked up my ball from the well this morning. '
-    },
-    {
-      name: '9',
-      img: 'Jag lovade honom, att han skulle få leva med mig,...'
-    },
-    {
-      name: '9',
-      img: ' I promised him that he would be allowed to live with me,...'
-    },
-    {
-      name: '10',
-      img: '...eftersom jag trodde att han aldrig skulle kunna komma upp ur brunnen och komma hit. '
-    },
-    {
-      name: '10',
-      img: '...because I thought he would never be able to get out of the well and come here. '
-    },
-    {
-      name: '11',
-      img: 'Men nu är han här vid dörren och vill komma in.'
-    },
-    {
-      name: '11',
-      img: 'But now he is here at the door and wants to come in.'
-    },
-    {
-      name: '12',
-      img: 'Medan hon pratade knackade grodan återigen på dörren och sa:'
-    },
-    {
-      name: '12',
-      img: 'While she was talking, the frog knocked on the door again and said:'
+      img: "Data is stored in random order and memory is allocated accordingly."
     }
   ]
 

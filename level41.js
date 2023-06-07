@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Det du lovat måste du hålla.'
+      img: 'Stack memory'
     },
     {
       name: '1',
-      img: 'What you promised you must keep.'
+      img: 'Memory that is allocated in stacks.'
     },
     {
       name: '2',
-      img: 'sa kungen till prinsessan,'
+      img: 'The function stack is...'
     },
     {
       name: '2',
-      img: 'said the king to the princess,'
+      img: '...a function that maintains track of all other functions that are running at the same time. '
     },
     {
       name: '3',
-      img: 'Så gå och släpp in honom.'
+      img: 'function second() {        console.log("Second")        }        function First() {        second()        }        function foo() {        first() }    foo()'
     },
     {
       name: '3',
-      img: 'Then go and let him in.'
+      img: 'console.log...  second... first... foo'
     },
     {
       name: '4',
-      img: 'Prinsessan gick till dörren och släppte in grodan,...'
+      img: 'An event loop is something that pulls various things like methods, etc. out of the queue...'
     },
     {
       name: '4',
-      img: 'The princess went to the door and let the frog in,...'
+      img: '...and places it onto the function execution stack whenever the function stack becomes empty.'
     },
     {
       name: '5',
-      img: '...som hoppade in i rummet med de klafsande ljuden från sina grodfötter:'
+      img: 'The event loop is the trick to making JavaScript appear multithreaded ...'
     },
     {
       name: '5',
-      img: '...who jumped into the room with the clapping sounds of his frog feet: '
+      img: '...even if it is only single-threaded.'
     },
     {
       name: '6',
-      img: 'Tap, tap, plask, plask'
+      img: 'The event loop is used to take the first event from the Event Queue ...'
     },
     {
       name: '6',
-      img: 'Tap, tap, splash, splash'
+      img: '...and place it on the stack, which in this case is the callback function. '
     },
     {
       name: '7',
-      img: 'Han fortsatte så ända fram till bordet nära den plats där prinsessan satt.'
+      img: 'try'
     },
     {
       name: '7',
-      img: 'He continued in this way as far as the table near where the princess sat.'
+      img: 'We can define a code block for testing errors using the try block.'
     },
     {
       name: '8',
-      img: 'Snälla, lyft upp mig på en stol”, sa han till prinsessan,'
+      img: 'catch'
     },
     {
       name: '8',
-      img: 'Please lift me up on a chair," he said to the princess, '
+      img: 'We can set up a block of code to execute in the event of an error using the catch statement.  '
     },
     {
       name: '9',
-      img: 'och låt mig sitta intill dig'
+      img: 'throw'
     },
     {
       name: '9',
-      img: 'and let me sit next to you.'
-    },
-    {
-      name: '10',
-      img: 'Så snart hon gjort det, sa grodan:'
-    },
-    {
-      name: '10',
-      img: 'As soon as she had done so, the frog said,'
-    },
-    {
-      name: '11',
-      img: 'Ställ din tallrik nära mig, så att jag kan äta från den.'
-    },
-    {
-      name: '11',
-      img: 'Put your plate near me, so that I may eat from it.'
-    },
-    {
-      name: '12',
-      img: 'Hon gjorde så och när han ätit så mycket han kunde, sa han: '
-    },
-    {
-      name: '12',
-      img: 'She did so and when he had eaten as much as he could, he said:'
+      img: 'Instead of the typical JavaScript errors, we can also create custom error messages using the throw statement.'
     }
   ]
 

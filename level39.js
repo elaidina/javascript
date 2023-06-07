@@ -3,99 +3,44 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Grodan ropade efter henne: '
+      img: 'In the capturing phase,  '
     },
     {
       name: '1',
-      img: ' The frog called after her: '
+      img: ' events propagate from the Window down through the DOM tree to the target node. '
     },
     {
       name: '2',
-      img: 'Stanna Prinsessa! '
+      img: 'if the user clicks a hyperlink, that click event would pass through...'
     },
     {
       name: '2',
-      img: 'Stop, Princess!'
+      img: '...the <html> element, the <body> element, and the <p> element containing the link. '
     },
     {
       name: '3',
-      img: 'Du lovade ju att ta mig med!'
+      img: 'By default, all event handlers in current browsers are registered ...'
     },
     {
       name: '3',
-      img: 'You promised to take me with you!'
+      img: '...at the bubbling phase.'
     },
     {
       name: '4',
-      img: 'Men hon stannade inte för att lyssna på honom.'
+      img: 'The Bubbling Phase: '
     },
     {
       name: '4',
-      img: "But she didn't stop to listen to him."
+      img: "From the target element up to the Window, the DOM tree visits all of the target element's ancestors one by one."
     },
+    
     {
-      name: '5',
-      img: 'Nästa dag, precis när prinsessan hade satt sig ner för att äta middag,...'
-    },
-    {
-      name: '5',
-      img: 'The next day, just as the princess had sat down to dinner,...'
+      name: '6',
+      img: "  paraElement.textContent = 'A new paragraph.';  document.body.appendChild(paraElement);  });"
     },
     {
       name: '6',
-      img: '...hörde hon ett konstigt ljud:'
-    },
-    {
-      name: '6',
-      img: '...she heard a strange sound:'
-    },
-    {
-      name: '7',
-      img: 'Tap, tap, plask, plask'
-    },
-    {
-      name: '7',
-      img: 'Tap, tap, splash, splash'
-    },
-    {
-      name: '8',
-      img: '...som om något kom upp för marmortrapporna. '
-    },
-    {
-      name: '8',
-      img: 'as if something was coming up the marble stairs.'
-    },
-    {
-      name: '9',
-      img: 'Strax därefter hördes en lätt knackning på dörren och en röst ropade:'
-    },
-    {
-      name: '9',
-      img: 'Soon after, a light knock was heard on the door and a voice called out:'
-    },
-    {
-      name: '10',
-      img: 'Öppna dörren, min älskade prinsessa!'
-    },
-    {
-      name: '10',
-      img: 'Open the door, my beloved princess!'
-    },
-    {
-      name: '11',
-      img: 'Öppna dörren och släpp in din käresta!'
-    },
-    {
-      name: '11',
-      img: 'Open the door and let your loved one in!'
-    },
-    {
-      name: '12',
-      img: 'Kom ihåg vad du lovade mig där nere vid brunnen!'
-    },
-    {
-      name: '12',
-      img: "Remember what you promised me down at the well!"
+      img: "buton.addEventListener('click', () => { alert ('Button has been clicked!');    let paraElement = document.createElement('p');"
     }
   ]
 
