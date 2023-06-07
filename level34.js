@@ -11,67 +11,67 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: '2',
-      img: 'De såg honom och sköt med uppblåsta fjädrar fram emot honom.'
+      img: 'onscroll'
     },
     {
       name: '2',
-      img: 'They saw him and shot at him with inflated feathers.'
+      img: 'The scrollbar of an element is being scrolled.'
     },
     {
       name: '3',
-      img: 'Döda mig bara!'
+      img: 'onunload'
     },
     {
       name: '3',
-      img: 'Just kill me! '
+      img: 'When a page is emptied, this event occurs.'
     },
     {
       name: '4',
-      img: 'sade det stackars djuret, böjde sitt huvud ned mot vattenbrynet och väntade döden.'
+      img: 'animationstart'
     },
     {
       name: '4',
-      img: "said the poor animal, bending his head down to the water's edge and awaiting death."
+      img: "The animation in CSS has begun."
     },
     {
       name: '5',
-      img: 'Men vad såg han i det klara vattnet?'
+      img: 'animationend'
     },
     {
       name: '5',
-      img: 'But what did he see in the clear water?'
+      img: 'When a CSS animation is finished, it is called animationend.'
     },
     {
       name: '6',
-      img: 'Han såg under sig sin egen bild men han var inte längre en klumpig, svartgrå fågel, ful och stygg, utan var själv en svan.'
+      img: 'animationiteration'
     },
     {
       name: '6',
-      img: 'He saw his own image beneath him, but he was no longer a clumsy, black-grey bird, ugly and naughty, but was himself a swan.'
+      img: 'CSS animation is repeated using animationiteration. '
     },
     {
       name: '7',
-      img: 'Det gör ingenting att vara född i ankgården, om man bara legat i ett svanägg.'
+      img: 'oncut '
     },
     {
       name: '7',
-      img: "It doesn't matter to be born in the duck farm, if you just lay in a swan's egg."
+      img: "The content of an element is cut by the user."
     },
     {
       name: '8',
-      img: 'Och de stora svanarna simmade runt omkring honom och strök honom med näbben.'
+      img: 'onpaste '
     },
     {
       name: '8',
-      img: 'And the great swans swam around him and stroked him with their beaks.'
+      img: 'When a user pastes material into an element, it is called onpaste.'
     },
     {
       name: '9',
-      img: 'Ut i trädgården kom några små barn.'
+      img: 'oncopy'
     },
     {
       name: '9',
-      img: 'Out into the garden came some small children.'
+      img: 'The content of an element is copied by the user. '
     }
   ]
 
