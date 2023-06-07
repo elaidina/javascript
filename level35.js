@@ -3,19 +3,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Och de andra barnen jublade också: '
+      img: 'onbeforeunload  '
     },
     {
       name: '1',
-      img: 'And the other children also cheered: '
+      img: 'Before the document is due to be emptied, an event occurs. '
     },
     {
       name: '2',
-      img: 'Ja, det har kommit en ny! '
+      img: 'onloadeddata'
     },
     {
       name: '2',
-      img: 'Yes, there is a new one!'
+      img: 'Media data has been loaded.'
     },
     {
       name: '3',
