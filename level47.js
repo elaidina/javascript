@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'But Tom soon remembered how to do it.'
+      img: 'Child Node'
     },
     {
       name: '1',
-      img: 'Ale Tom si čoskoro spomenul, ako to urobiť.'
+      img: 'A node which is a      child of another node.'
     },
     {
       name: '2',
-      img: 'I like our tent best.'
+      img: 'Parent Node'
     },
     {
       name: '2',
-      img: 'Najviac sa mi páči náš stan.'
+      img: 'A node which      has one or more child.'
     },
     {
       name: '3',
-      img: 'I went to fetch water.'
+      img: 'Descendent Node'
     },
     {
       name: '3',
-      img: 'Išiel som po vodu.'
+      img: 'A node      which is nested deep in the      tree'
     },
     {
       name: '4',
-      img: 'After supper, Tom went to explore the wood.'
+      img: 'Sibling Node'
     },
     {
       name: '4',
-      img: 'Po večeri šiel Tom preskúmať les.'
+      img: 'A node that      share the same parent node'
     },
     {
       name: '5',
-      img: 'Somebody has been painting arrows on the trees.'
+      img: 'String'
     },
     {
       name: '5',
-      img: 'Niekto maľoval šípky na stromy.'
+      img: '.concat()      .charAt()      .indexOf()      .startsWith()      .endsWith()     .split()      .slice()'
     },
     {
       name: '6',
-      img: 'If we follow those arrows, they will take us for a good walk and bring us back to camp.'
+      img: 'Number'
     },
     {
       name: '6',
-      img: 'Ak budeme nasledovať tie šípky, vezmú nás na poriadnu prechádzku a privedú nás späť do tábora.'
+      img: '.toFixed()      .toPrecision()      .toString()'
     },
     {
       name: '7',
-      img: 'The big boys were very noisy.'
+      img: 'Array'
     },
     {
       name: '7',
-      img: 'Veľkí chlapci boli veľmi hluční.'
+      img: '.filter()      .map()      .find()      .every()      .some()      .sort()      .slice()      .splice()      .reduce()      .forEach()'
     },
     {
       name: '8',
-      img: 'Let´s go and play inside our tent.'
+      img: 'Date'
     },
     {
       name: '8',
-      img: 'Poďme sa hrať do nášho stanu.'
+      img: "const d = new Date('9/17/1988');      d.getDay()      d.getFullYear()      d.getMonth()      Date.now()"
     },
     {
       name: '9',
-      img: 'It´s time you two got into your sleeping bags.'
+      img: 'Promise is an object...'
     },
     {
       name: '9',
-      img: 'Je načase, aby ste si vy dvaja zaliezli do spacákov.'
-    },
-    {
-      name: '10',
-      img: 'Tom was almost asleep in his cosy sleeping bag when something hit his tent.'
-    },
-    {
-      name: '10',
-      img: 'Tom už takmer spal vo svojom útulnom spacom vaku, keď niečo narazilo do jeho stanu.'
-    },
-    {
-      name: '11',
-      img: 'It gave him a fright.'
-    },
-    {
-      name: '11',
-      img: 'Vystrašilo ho to.'
-    },
-    {
-      name: '12',
-      img: 'The naughty boys had kicked a football hard at Tom´s tent.'
-    },
-    {
-      name: '12',
-      img: 'Neposlušní chlapci tvrdo kopli do futbalovej lopty pri Tomovom stane.'
+      img: '... that provides a useful construct when dealing      with asynchronous tasks.'
     }
   ]
 

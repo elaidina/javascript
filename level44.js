@@ -3,69 +3,77 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Den unga prinsessan dröjde inte länge innan hon svarade ja till allt.'
+      img: 'Invoke a function'
     },
     {
       name: '1',
-      img: "It didn't take long for the young princess to say yes to everything."
+      img: "When we write the function name     someName, followed by the brackets symbol () like this      someName(), the code inside the function gets executed."
     },
     {
       name: '2',
-      img: 'Samtidigt körde en kusk fram en ståtlig vagn med åtta vackra hästar prydda med plymer,...'
+      img: 'Code block'
     },
     {
       name: '2',
-      img: 'At the same time, a coachman drove a stately carriage with eight beautiful horses adorned with plumes, ...'
+      img: 'Any code within the curly      braces { ... } is called a      "block of code", "code      block" or simply "block"'
     },
     {
       name: '3',
-      img: '...fjädrar och gyllene selar.'
+      img: 'Using a function has ONLY two parts.'
     },
     {
       name: '3',
-      img: '...feathers and golden harnesses.'
+      img: '(1) Declaring/defning a function, and (2) using/running a function.'
     },
     {
       name: '4',
-      img: ' Bakom vagnen red prinsens trogne tjänare, ...'
+      img: ' Type coercion priority order:'
     },
     {
       name: '4',
-      img: "Behind the carriage rode the prince's faithful servant,..."
+      img: "1. String      2. Number         3. Boolean"
     },
     {
       name: '5',
-      img: '...Henrik, som hade varit så olycklig under sin härskares förtrollning, att hans hjärta nästan brustit.'
+      img: 'switch (expression) {        case choice1:        // run this code        break;'
     },
     {
       name: '5',
-      img: "Henrik, who had been so unhappy under his ruler's spell that his heart almost broke."
+      img: "case choice2:      // run this code      break;      default:      // run this code}"
     },
     {
       name: '6',
-      img: 'De tog då farväl till kungen och satte sig i vagnen. '
+      img: 'Truthy Values '
     },
     {
       name: '6',
-      img: 'They then bade farewell to the king and sat down in the carriage.'
+      img: 'true   ,   "text"   ,   72   ,   -72    ,  Infinity ,     Infinity   ,  {}    ,  []'
     },
     {
       name: '7',
-      img: ' De for glada och förväntansfulla iväg mot prinsens kungarike, ...'
+      img: 'Falsy Values'
     },
     {
       name: '7',
-      img: "They set off happily and expectantly towards the prince's kingdom,..."
+      img: 'false , "" , 0 ,      -0 ,      NaN ,      null,     undefined'
     },
     {
       name: '8',
-      img: '...dit de utan några förhinder anlände och där levde de lyckliga i många, många år.'
+      img: 'Ternary Operator:'
     },
     {
       name: '8',
-      img: '...where they arrived without any obstacles and lived there happily for many, many years.'
+      img: '(expression)? ifTrue: ifFalse;'
     },
-    /* {
+    {
+      name: '9',
+      img: 'Window'
+    },
+    {
+      name: '9',
+      img: 'Each tab of a browser is      considered the window.      This is the outer most      container that a web-app      can access.'
+    },
+   /*  {
       name: '9',
       img: 'As soon as he was back in the car he opened his present.'
     },

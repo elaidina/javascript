@@ -3,99 +3,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'They had a wonderful time in the wood.'
+      img: 'Create a promise'
     },
     {
       name: '1',
-      img: 'V lese mali nádherné chvíle.'
+      img: "const p = new Promise((resolve, reject)=>{        // Do some async task        setTimeout(()=>{        if(condition){        resolve('Successful login');        } else {        reject('Login failed');        }        }, 2000)        })"
     },
     {
       name: '2',
-      img: 'They swung from trees like monkeys.'
+      img: 'An async task is one in which a third-party process is      doing the task.      '
     },
     {
       name: '2',
-      img: 'Hojdali sa zo stromov ako opice.'
+      img: '1- Requesting/sending data to a database      2- Requesting/sending data via HTTP protocol      3- Working with the fle system of the computer'
     },
     {
       name: '3',
-      img: 'I´m the king of the jungle!'
+      img: 'Using a promise'
     },
     {
       name: '3',
-      img: 'Som kráľ džungle!'
+      img: 'p.then((res)=>{        console.log(res)        })        .catch((err)=>{        console.log(err)        })'
     },
     {
       name: '4',
-      img: 'They chased after rabbits, trying to catch them.'
+      img: 'A constructor is...'
     },
     {
       name: '4',
-      img: 'Naháňali zajace a snažili sa ich chytiť.'
-    },
-    {
-      name: '5',
-      img: 'But the rabbits ran faster.'
-    },
-    {
-      name: '5',
-      img: 'Ale zajace bežali rýchlejšie.'
-    },
-    {
-      name: '6',
-      img: 'I nearly caught one, but it ran down a rabbit hole.'
-    },
-    {
-      name: '6',
-      img: 'Takmer som jedného chytil, ale utiekol do zajačej nory.'
-    },
-    {
-      name: '7',
-      img: 'At last they began to feel hungry.'
-    },
-    {
-      name: '7',
-      img: 'Nakoniec začali pociťovať hlad.'
-    },
-    {
-      name: '8',
-      img: 'None of them had had breakfast.'
-    },
-    {
-      name: '8',
-      img: 'Nikto z nich neraňajkoval.'
-    },
-    {
-      name: '9',
-      img: 'They wanted to go back to the camp, but they did not know which way to go.'
-    },
-    {
-      name: '9',
-      img: 'Chceli sa vrátiť do tábora, ale nevedeli, ktorým smerom majú ísť.'
-    },
-    {
-      name: '10',
-      img: 'We are lost.'
-    },
-    {
-      name: '10',
-      img: 'Sme stratení.'
-    },
-    {
-      name: '11',
-      img: 'I was just coming to find you.'
-    },
-    {
-      name: '11',
-      img: 'Práve som ťa prišiel nájsť.'
-    },
-    {
-      name: '12',
-      img: 'What have you been up to?'
-    },
-    {
-      name: '12',
-      img: 'Čo si robil?'
+      img: '...a special      function that acts as a mold to create      new objects.'
     }
   ]
 

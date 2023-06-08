@@ -3,99 +3,75 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'När prinsessan öppnade dörren, kom grodan in och sov på hennes kudde tills morgonen kom. '
+      img: 'Statement '
     },
     {
       name: '1',
-      img: 'When the princess opened the door, the frog came in and slept on her pillow until morning came.'
+      img: 'A group of words, numbers      and operators that do a      task is a statement.'
     },
     {
       name: '2',
-      img: 'Den tredje kvällen gjorde han det igen, men när prinsessan vaknade, ...'
+      img: 'Expression'
     },
     {
       name: '2',
-      img: ' On the third night he did it again, but when the princess awoke, ...'
+      img: ' A reference, value or a      group of reference(s)      and value(s) combined      with operator(s), which      result in a single value.'
     },
     {
       name: '3',
-      img: '...följande morgon, blev hon väldigt överraskad. '
+      img: 'Object '
     },
     {
       name: '3',
-      img: '... the following morning, she was very surprised. '
+      img: 'A data type in      JavaScript that is used to store      a combination of data in a      simple key-value pair. '
     },
     {
       name: '4',
-      img: 'Hon såg då inte en groda utan en vacker prins, ...'
+      img: 'Method'
     },
     {
       name: '4',
-      img: 'She then saw not a frog but a handsome prince, ...'
+      img: 'If a key has a      function as a value.'
     },
     {
       name: '5',
-      img: '...som såg på henne med de vackraste ögon hon någonsin sett.'
+      img: 'Keyword / reserved word'
     },
     {
       name: '5',
-      img: '...who looked at her with the most beautiful eyes she had ever seen.'
+      img: 'Any word that is part of      the vocabulary of the      programming language.'
     },
     {
       name: '6',
-      img: 'Han berättade att han blivit förtrollad av en ond fe, ...'
+      img: 'Variable'
     },
     {
       name: '6',
-      img: 'He told that he had been bewitched by an evil fairy,...'
+      img: 'A named reference to      a value i.'
     },
     {
       name: '7',
-      img: '...som hade förvandlat honom till en groda och att han så skulle förbli, ...'
+      img: 'Operators'
     },
     {
       name: '7',
-      img: '...who had turned him into a frog, and that he would remain so, ...'
+      img: ' Reserved-words that      perform action on values and variables.'
     },
     {
       name: '8',
-      img: '...tills någon prinsessa tog honom ur brunnen och lät honom äta från sin tallrik...'
+      img: '. Functions... '
     },
     {
       name: '8',
-      img: '...until some princess took him out of the well and let him eat from her plate ...'
+      img: '... allow for organizing code into sections and code reusability.'
     },
     {
       name: '9',
-      img: '...och sova i sin säng i tre nätter.'
+      img: 'Return'
     },
     {
       name: '9',
-      img: '...and sleep in her bed for three nights. '
-    },
-    {
-      name: '10',
-      img: 'Du har nu brutit förtrollningen.'
-    },
-    {
-      name: '10',
-      img: 'You have now broken the spell.'
-    },
-    {
-      name: '11',
-      img: 'sa prinsen, och jag har inga andra önskningar än att du vill följa med mig till min fars kungarike, ...'
-    },
-    {
-      name: '11',
-      img: "said the prince, “and I have no other wishes than that you will come with me to my father's kingdom, ..."
-    },
-    {
-      name: '12',
-      img: '...där jag kommer att gifta mig med dig och älska dig så länge jag lever.'
-    },
-    {
-      name: '12',
-      img: ' where I will marry you and love you as long as I live.'
+      img: 'A function can optionally      spit-out or "return" a value     once its invoked. Once a      function returns, no further      lines of code within the      function run. '
     }
   ]
 

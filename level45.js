@@ -3,100 +3,53 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'In the morning he ran straight outside to build a snowman.'
+      img: 'Document'
     },
     {
       name: '1',
-      img: 'Ráno vybehol rovno von postaviť snehuliaka.'
+      img: 'The viewport or the section      where the website is displayed is      called the document of the page'
     },
     {
       name: '2',
-      img: 'Dad helped them and at last they had a splendid snowman.'
+      img: 'Query/Get Elements - preferred way:'
     },
     {
       name: '2',
-      img: 'Ocko im pomohol a konečne mali nádherného snehuliaka.'
+      img: "document.querySelector('css-selectors')    document.querySelectorAll('css-selectors', ...)"
     },
     {
       name: '3',
-      img: 'Tom ran indoors and fetched an old hat for his head and a carrot for his nose.'
+      img: 'Query/Get Elements - old ways, and still work:      '
     },
     {
       name: '3',
-      img: 'Tom bežal dovnútra a priniesol starý klobúk na hlavu a mrkvu na nos.'
+      img: "document.getElementsByTagName('element-name')      document.getElementsByClassName('class-name')      document.getElementById('id')"
     },
     {
       name: '4',
-      img: 'It was getting dark.'
+      img: 'Events'
     },
     {
       name: '4',
-      img: 'Už sa stmievalo.'
+      img: "node.addEventListener('event-name', callback-function)      node.removeEventListener('event-name', callback-function)"
     },
     {
       name: '5',
-      img: 'They had a surprise when they went into the living room.'
+      img: 'Add node to document'
     },
     {
       name: '5',
-      img: 'Keď vošli do obývačky, čakalo ich prekvapenie.'
+      img: "parentNode.appendChild(nodeToAdd)      parentNode.insertBefore(nodeToAdd, childNode)"
     },
     {
       name: '6',
-      img: 'The Chrismas tree was covered in twinkling lights, tinsel and tiny toys.'
+      img: 'Remove Node'
     },
     {
       name: '6',
-      img: 'Vianočný stromček bol pokrytý blikajúcimi svetlami, pozlátkami a malými hračkami.'
+      img: 'parentNode.removeChild(nodeToRemove)   nodeToRemove.parentNode.removeChild(nodeToRemove)'
     },
-    {
-      name: '7',
-      img: 'The robin was perched right at the top of the tree.'
-    },
-    {
-      name: '7',
-      img: 'Červenka bola posadená priamo na vrchole stromu.'
-    },
-    {
-      name: '8',
-      img: 'It´s not fair.'
-    },
-    {
-      name: '8',
-      img: 'Nie je to fér.'
-    },
-    {
-      name: '9',
-      img: 'My angel should be at the top.'
-    },
-    {
-      name: '9',
-      img: 'Môj anjel by mal byť na vrchole.'
-    },
-    {
-      name: '10',
-      img: 'Kitty strolled into the room and spotted the robin.'
-    },
-    {
-      name: '10',
-      img: 'Kitty vošla do izby a zbadala červienku.'
-    },
-    {
-      name: '11',
-      img: 'At last it was Christmas Eve, the night when Father Christmas comes.'
-    },
-    {
-      name: '11',
-      img: 'Konečne bol Štedrý večer, noc, keď príde Otec Vianoc.'
-    },
-    {
-      name: '12',
-      img: 'Tom went to bed, but he did not want to go to sleep.'
-    },
-    {
-      name: '12',
-      img: 'Tom išiel do postele, ale spať nechcel.'
-    }
+    
   ]
 
   cardArray.sort(() => 0.5 - Math.random())

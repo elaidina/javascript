@@ -11,67 +11,67 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: '2',
-      img: 'Bär mig upp till ditt rum och lägg mig I din säng.'
+      img: 'name '
     },
     { 
       name: '2',
-      img: 'Carry me up to your room and put me in your bed.'
+      img: 'It is used for setting or returning an error name.'
     },
     {
       name: '3',
-      img: 'Prinsessan tog honom då, om än motvilligt, i sin hand, ...'
+      img: 'message'
     },
     {
       name: '3',
-      img: 'The princess then took him, albeit reluctantly, in her hand,...'
+      img: 'It is used for setting or returning the error message as a string.'
     },
     {
       name: '4',
-      img: '...bar upp honom till sitt rum och lade honom på sin kudde.'
+      img: 'EvalError '
     },
     {
       name: '4',
-      img: '...carried him up to her room, and laid him on her pillow.'
+      img: 'It indicates that an error has occurred within the eval() method.'
     },
     {
       name: '5',
-      img: 'Där sov grodan hela natten. '
+      img: 'RangeError  '
     },
     {
       name: '5',
-      img: 'There the frog slept all night.'
+      img: 'It indicates that some number is “out of range”.'
     },
     {
       name: '6',
-      img: ' Så snart det var ljust hoppade han upp ur sängen, ...'
+      img: ' ReferenceError '
     },
     {
       name: '6',
-      img: 'As soon as it was light, he jumped out of bed,...'
+      img: 'It indicates that an illegal reference was occurring.'
     },
     {
       name: '7',
-      img: '...hoppade nerför trapporna och gick ut ur huset.'
+      img: 'SyntaxError '
     },
     {
       name: '7',
-      img: '...jumped down the stairs and left the house.'
+      img: ' It indicates that a syntax error was occurring.'
     },
     {
       name: '8',
-      img: 'Nå äntligen.'
+      img: 'TypeError '
     },
     {
       name: '8',
-      img: 'Well at last.'
+      img: 'It indicates that a type error was occurring.'
     },
     {
       name: '9',
-      img: 'tänkte prinsessan'
+      img: 'URIError '
     },
     {
       name: '9',
-      img: 'thought the princess'
+      img: 'It indicates that an encodeURI() error was occurring.'
     }
   ]
 

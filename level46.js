@@ -3,99 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'His stockings were hanging at the end of his bed.'
+      img: 'Create / clone Element'
     },
     {
       name: '1',
-      img: 'Na konci postele mu viseli pančuchy.'
+      img: "document.createElement('div')      document.createTextNode('some text here')           node.textContent = 'some text here' node.cloneNode()      "
     },
     {
       name: '2',
-      img: 'Mummy had put a carrot for Rudolph on his chest of drawers.'
+      img: 'Get Element Details'
     },
     {
       name: '2',
-      img: 'Mamička dala Rudolfovi mrkvu na jeho komodu.'
+      img: 'node.nextSibling...      node.firstChild...      node.lastChild...      node.parentNode...      node.childNodes...      node.children'
     },
     {
       name: '3',
-      img: 'I´m going to stay awake to say hello to Father Christmas.'
+      img: 'Get and Modify Element Class'
     },
     {
       name: '3',
-      img: 'Zostanem hore, aby som pozdravil otca Vianoc.'
+      img: "node.classList.add('class-name', ...)      node.classList.remove('class-name', ...)      node.classList.toggle('class-name')      node.classList.contains('class-name')      node.classList.replace('old', 'new') node.classList      "
     },
     {
       name: '4',
-      img: 'One hour later he was already asleep.'
+      img: 'Node:'
     },
     {
       name: '4',
-      img: 'O hodinu neskôr už spal.'
+      img: 'Every item in the DOM      tree is called a node. There      are two types of node - A text node and an element node.'
     },
     {
       name: '5',
-      img: 'He woke up early in the morning.'
+      img: 'Text Node:'
     },
     {
       name: '5',
-      img: 'Zobudil sa skoro ráno.'
+      img: 'Node that has text.'
     },
     {
       name: '6',
-      img: 'It was quite dark, but he could see that his stocking was full of presents.'
+      img: 'Element Node:'
     },
     {
       name: '6',
-      img: 'Bola dosť tma, ale videl, že má pančuchu plnú darčekov.'
-    },
-    {
-      name: '7',
-      img: 'We are going camping with our family.'
-    },
-    {
-      name: '7',
-      img: 'Ideme kempovať s rodinou.'
-    },
-    {
-      name: '8',
-      img: 'It is a long drive.'
-    },
-    {
-      name: '8',
-      img: 'Je to dlhá jazda.'
-    },
-    {
-      name: '9',
-      img: 'At last we arrived at the campsite.'
-    },
-    {
-      name: '9',
-      img: 'Konečne sme dorazili do kempu.'
-    },
-    {
-      name: '10',
-      img: 'It was in a field, beside a little wood.'
-    },
-    {
-      name: '10',
-      img: 'Bolo to na poli, vedľa malého lesa.'
-    },
-    {
-      name: '11',
-      img: 'Tom helped to unload the car.'
-    },
-    {
-      name: '11',
-      img: 'Tom pomohol vyložiť auto.'
-    },
-    {
-      name: '12',
-      img: 'Putting the tents up was a puzzle at first.'
-    },
-    {
-      name: '12',
-      img: 'Postavenie stanov bolo spočiatku hádankou.'
+      img: 'Node that has      an element.'
     }
   ]
 
