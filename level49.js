@@ -3,35 +3,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'We have had adventures.'
+      img: 'Scenario #1: this inside a function.'
     },
     {
       name: '1',
-      img: 'Zažili sme dobrodružstvá.'
+      img: 'The this keyword points to global object.'
     },
     {
       name: '2',
-      img: 'Mummy could not get the camp stove to work.'
+      img: 'Scenario #2: this inside a method'
     },
     {
       name: '2',
-      img: 'Mamičke sa nepodarilo spustiť táborový sporák.'
+      img: 'The this keyword points to the object the      method is in.'
     },
     {
       name: '3',
-      img: 'We will have to make do with a cold breakfast.'
+      img: 'Scenario #3: When function is run with      call, bind or apply'
     },
     {
       name: '3',
-      img: 'Budeme si musieť vystačiť so studenými raňajkami.'
+      img: 'When a function is called using the      .call(param) .bind(param) or .apply(param)      method, the frst param become the object      that the this keyword refers to.'
     },
     {
       name: '4',
-      img: 'Dad came to see what was wrong.'
+      img: 'Defining a constructor'
     },
     {
       name: '4',
-      img: 'Otec sa prišiel pozrieť, čo sa deje.'
+      img: 'function Car(make, model, year){        this.make = make;        this.model = model;        this.year = year;        this.setMiles = function(miles){        this.miles = miles        return miles;        }        }'
     },
     /* {
       name: '5',
@@ -41,38 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: '5',
       img: 'Inuti skåpet fanns allt vi behöver för att hålla huset rent.'
     }, */
-    {
-      name: '6',
-      img: 'Come and join us.'
-    },
-    {
-      name: '6',
-      img: 'Poď a pripoj sa k nám.'
-    },
-    {
-      name: '7',
-      img: 'Soon there was the lovely smell of sausages and bacon.'
-    },
-    {
-      name: '7',
-      img: 'Čoskoro tam bola krásna vôňa klobás a slaniny.'
-    },
-    {
-      name: '8',
-      img: 'There was plenty for everyone.'
-    },
-    {
-      name: '8',
-      img: 'Bolo toho dosť pre každého.'
-    },
-    {
-      name: '9',
-      img: 'I love camping.'
-    },
-    {
-      name: '9',
-      img: 'Milujem kempovanie.'
-    },
+    
     /* {
       name: '10',
       img: 'The cat has a tiny toy.'
@@ -166,7 +135,7 @@ audio1.play();
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if  (cardsWon.length === cardArray.length/2) {
-      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level completed!</h2><a href='https://elaidina.github.io/michelle'> Continue to next level </a>";
+      resultDisplay.innerHTML = " <h1>Congratulations! You found them all!</h1><h2>Level completed!</h2><a href='https://elaidina.github.io/javascript/level50.html'> Continue to next level </a>";
 
 
       var audio3 = new Audio ("images/end.mp3")

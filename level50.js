@@ -3,99 +3,99 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
     {
       name: '1',
-      img: 'Don´t stand near the cooker.'
+      img: 'Using a constructor      with the "new" keyword'
     },
     {
       name: '1',
-      img: 'Stå inte nära spisen.'
+      img: "const car1 = new Car('Toyota', 'Prius', 2016);      "
     },
     {
       name: '2',
-      img: 'It is very hot and you might burn yourself.'
+      img: 'Adding method to the constructor prototype'
     },
     {
       name: '2',
-      img: 'Det är väldigt varmt och du kan bränna dig.'
+      img: 'Car.prototype.age = function(){        return (new Date()).getFullYear() - this.year;        }        car1.age(); // 2'
     },
     {
       name: '3',
-      img: 'Oh no, I have spilt my milk.'
+      img: '"prototype" property'
     },
     {
       name: '3',
-      img: 'Åh nej, jag har spillt ut min mjölk.'
+      img: 'get inherited to every      instance of the      constructor'
     },
     {
       name: '4',
-      img: 'Tom went to fetch a mop from the cleaning cupboard.'
+      img: '"new" keyword'
     },
     {
       name: '4',
-      img: 'Tom gick för att hämta en mopp från städskåpet.'
+      img: 'is      used to create a new      object (instance) from      the constructor'
     },
     {
       name: '5',
-      img: 'Inside the cupboard were all the things we need to keep the house clean.'
+      img: 'Math.pow(2, 3)'
     },
     {
       name: '5',
-      img: 'Inuti skåpet fanns allt vi behöver för att hålla huset rent.'
+      img: '8'
     },
     {
       name: '6',
-      img: 'What a lot of bottles!'
+      img: 'Math.sqrt(16)'
     },
     {
       name: '6',
-      img: 'Vilka många flaskor!'
+      img: '4'
     },
     {
       name: '7',
-      img: 'I keep the cupboard door locked.'
+      img: 'Math.min(7, 8, 6) '
     },
     {
       name: '7',
-      img: 'Jag håller skåpsdörren låst.'
+      img: '6'
     },
     {
       name: '8',
-      img: 'After tea we watched a film on TV.'
+      img: 'Math.max(7, 8, 6)'
     },
     {
       name: '8',
-      img: 'Efter teet såg vi en film på TV.'
+      img: '8'
     },
     {
       name: '9',
-      img: 'The cat played on the floor.'
+      img: 'Math.floor(123.45)'
     },
     {
       name: '9',
-      img: 'Katten lekte på golvet.'
+      img: '123'
     },
     {
       name: '10',
-      img: 'The cat has a tiny toy.'
+      img: 'Math.ceil(123.45)'
     },
     {
       name: '10',
-      img: 'Katten har en liten leksak.'
+      img: '124'
     },
     {
       name: '11',
-      img: 'Spit it out!'
+      img: 'Math.round(123.45)'
     },
     {
       name: '11',
-      img: 'Spotta ut det!'
+      img: '123'
     },
     {
       name: '12',
-      img: 'You could swallow it and choke.'
+      img: 'Math.random()'
     },
     {
       name: '12',
-      img: 'Du kunde svälja det och kvävas.'
+      img: ' 0.45'
     }
   ]
 
